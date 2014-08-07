@@ -1,0 +1,11 @@
+jekyll serve -w --baseurl ''
+
+compass watch
+
+git add
+
+git commmit
+
+ctrl + W
+
+git push
