@@ -67,6 +67,110 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 1, ../sass/_rafo.scss */
+html {
+  height: 100%;
+}
+
+/* line 4, ../sass/_rafo.scss */
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  height: 100%;
+}
+
+/* line 8, ../sass/_rafo.scss */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* line 12, ../sass/_rafo.scss */
+.fl-left {
+  float: left;
+}
+
+/* line 15, ../sass/_rafo.scss */
+.fl-right {
+  float: right;
+}
+
+/* line 18, ../sass/_rafo.scss */
+.start_page {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/main_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-left: 7px solid #E7E7E7;
+  border-right: 7px solid #E7E7E7;
+  position: absolute;
+}
+
+/* line 28, ../sass/_rafo.scss */
+#start_menu_holder {
+  height: 350px;
+  width: 100%;
+  background-color: white;
+  margin-top: 220px;
+}
+
+/* line 34, ../sass/_rafo.scss */
+.separator {
+  width: 2px;
+  height: 300px;
+  background-color: #F2F2F2;
+  margin-top: 30px;
+}
+
+/* line 43, ../sass/_rafo.scss */
+.start_menu_logo {
+  width: 350px;
+  height: 330px;
+  margin: 0 80px;
+  float: left;
+  border-top: 20px solid white;
+  margin-top: 20px;
+}
+
+/* line 51, ../sass/_rafo.scss */
+.start_sience {
+  padding: 35px 60px;
+}
+/* line 53, ../sass/_rafo.scss */
+.start_sience:hover {
+  border-top: 20px solid #911B4B;
+}
+
+/* line 57, ../sass/_rafo.scss */
+.start_sience h2 {
+  text-transform: uppercase;
+  color: #C3005E;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* line 63, ../sass/_rafo.scss */
+.start_sience h2 span {
+  color: #EB6913;
+  font-weight: normal;
+}
+
+/* line 67, ../sass/_rafo.scss */
+.start_sience_youth {
+  padding: 35px 0px;
+}
+/* line 69, ../sass/_rafo.scss */
+.start_sience_youth:hover {
+  border-top: 20px solid #00A0B8;
+}
+
+/* line 73, ../sass/_rafo.scss */
+.start_sience_youth h2 {
+  text-transform: uppercase;
+  color: #C3005E;
+  font-size: 25px;
+}
+
 /* line 1, ../sass/_common.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
