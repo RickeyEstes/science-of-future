@@ -30,6 +30,8 @@ body {
 	width: 100%;
 	background-color: white;
 	margin-top: 220px;
+	border-top: 2px solid #5C133A;
+	border-bottom: 2px solid #5C133A;
 }
 .separator{
 	width: 2px;
@@ -47,6 +49,9 @@ body {
 	float: left;
 	border-top: 20px solid white;
 	margin-top: 20px;
+	&_img{
+		height: 230px;
+	}
 }
 .start_sience{
 	padding: 35px 60px;

@@ -112,9 +112,11 @@ body {
   width: 100%;
   background-color: white;
   margin-top: 220px;
+  border-top: 2px solid #5C133A;
+  border-bottom: 2px solid #5C133A;
 }
 
-/* line 34, ../sass/_rafo.scss */
+/* line 36, ../sass/_rafo.scss */
 .separator {
   width: 2px;
   height: 300px;
@@ -122,7 +124,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 43, ../sass/_rafo.scss */
+/* line 45, ../sass/_rafo.scss */
 .start_menu_logo {
   width: 350px;
   height: 330px;
@@ -131,21 +133,25 @@ body {
   border-top: 20px solid white;
   margin-top: 20px;
 }
+/* line 52, ../sass/_rafo.scss */
+.start_menu_logo_img {
+  height: 230px;
+}
 
-/* line 51, ../sass/_rafo.scss */
+/* line 56, ../sass/_rafo.scss */
 .start_sience {
   padding: 35px 60px;
 }
-/* line 53, ../sass/_rafo.scss */
+/* line 58, ../sass/_rafo.scss */
 .start_sience:hover {
   border-top: 20px solid #911B4B;
 }
 
-/* line 57, ../sass/_rafo.scss */
+/* line 62, ../sass/_rafo.scss */
 .start_sience_youth {
   padding: 35px 0px;
 }
-/* line 59, ../sass/_rafo.scss */
+/* line 64, ../sass/_rafo.scss */
 .start_sience_youth:hover {
   border-top: 20px solid #00A0B8;
 }
