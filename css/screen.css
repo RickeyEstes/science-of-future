@@ -150,32 +150,6 @@ body {
   border-top: 20px solid #00A0B8;
 }
 
-/* line 66, ../sass/_rafo.scss */
-.button, .urish-button {
-  background: #000;
-  color: #000;
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  table-layout: fixed;
-}
-
-/* line 102, ../sass/_rafo.scss */
-.main {
-  background: #cccccc;
-  color: #000;
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  table-layout: fixed;
-}
-/* line 91, ../sass/_rafo.scss */
-.main:hover {
-  background: #fff;
-}
-/* line 95, ../sass/_rafo.scss */
-.main:focus {
-  text-transform: uppercase;
-}
-
 /* line 1, ../sass/_common.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
