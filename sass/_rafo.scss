@@ -54,24 +54,51 @@ body {
 		border-top: 20px solid #911B4B;
 	}
 }
-.start_sience h2{
-	text-transform: uppercase;
-	color: #C3005E;
-	font-size: 25px;
-	font-weight: bold;
-}
-.start_sience h2 span{
-	color: #EB6913;
-	font-weight: normal;
-}
 .start_sience_youth{
 	padding: 35px 0px;
 	&:hover{
 		border-top: 20px solid #00A0B8;
 	}
 }
-.start_sience_youth h2{
+
+
+
+.button{
+	background: #000;
+	color: #000;
+	border: 1px solid #fff;
 	text-transform: uppercase;
-	color: #C3005E;
-	font-size: 25px;
+	table-layout: fixed;
+}
+
+
+
+.urish-button{
+	@extend .button;
+}
+
+
+
+// 
+// @TODO: Add docs to button!
+//
+@mixin button ($back) {
+  background: $back;
+	color: #000;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	table-layout: fixed;
+	&:hover{
+		background: #fff;
+	}
+
+	&:focus{
+		text-transform: uppercase;
+	}
+
+
+}
+
+.main{
+	@include button (#ccc);
 }

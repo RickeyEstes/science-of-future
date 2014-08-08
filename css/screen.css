@@ -142,33 +142,38 @@ body {
 }
 
 /* line 57, ../sass/_rafo.scss */
-.start_sience h2 {
-  text-transform: uppercase;
-  color: #C3005E;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-/* line 63, ../sass/_rafo.scss */
-.start_sience h2 span {
-  color: #EB6913;
-  font-weight: normal;
-}
-
-/* line 67, ../sass/_rafo.scss */
 .start_sience_youth {
   padding: 35px 0px;
 }
-/* line 69, ../sass/_rafo.scss */
+/* line 59, ../sass/_rafo.scss */
 .start_sience_youth:hover {
   border-top: 20px solid #00A0B8;
 }
 
-/* line 73, ../sass/_rafo.scss */
-.start_sience_youth h2 {
+/* line 66, ../sass/_rafo.scss */
+.button, .urish-button {
+  background: #000;
+  color: #000;
+  border: 1px solid #fff;
   text-transform: uppercase;
-  color: #C3005E;
-  font-size: 25px;
+  table-layout: fixed;
+}
+
+/* line 102, ../sass/_rafo.scss */
+.main {
+  background: #cccccc;
+  color: #000;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  table-layout: fixed;
+}
+/* line 91, ../sass/_rafo.scss */
+.main:hover {
+  background: #fff;
+}
+/* line 95, ../sass/_rafo.scss */
+.main:focus {
+  text-transform: uppercase;
 }
 
 /* line 1, ../sass/_common.scss */
