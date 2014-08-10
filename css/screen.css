@@ -107,6 +107,19 @@ body {
 }
 
 /* line 28, ../sass/_rafo.scss */
+.sof_page {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 1024px;
+  background-position: top right;
+  border-left: 7px solid #E7E7E7;
+  border-right: 7px solid #E7E7E7;
+  position: absolute;
+}
+
+/* line 39, ../sass/_rafo.scss */
 #start_menu_holder {
   height: 350px;
   width: 100%;
@@ -116,7 +129,7 @@ body {
   border-bottom: 2px solid #5C133A;
 }
 
-/* line 36, ../sass/_rafo.scss */
+/* line 47, ../sass/_rafo.scss */
 .separator {
   width: 2px;
   height: 300px;
@@ -124,7 +137,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 45, ../sass/_rafo.scss */
+/* line 56, ../sass/_rafo.scss */
 .start_menu_logo {
   width: 350px;
   height: 330px;
@@ -133,27 +146,77 @@ body {
   border-top: 20px solid white;
   margin-top: 20px;
 }
-/* line 52, ../sass/_rafo.scss */
-.start_menu_logo_img {
+/* line 63, ../sass/_rafo.scss */
+.start_menu_logo > img {
   height: 230px;
 }
 
-/* line 56, ../sass/_rafo.scss */
+/* line 67, ../sass/_rafo.scss */
 .start_sience {
   padding: 35px 60px;
 }
-/* line 58, ../sass/_rafo.scss */
+/* line 69, ../sass/_rafo.scss */
 .start_sience:hover {
   border-top: 20px solid #911B4B;
 }
 
-/* line 62, ../sass/_rafo.scss */
+/* line 73, ../sass/_rafo.scss */
 .start_sience_youth {
   padding: 35px 0px;
 }
-/* line 64, ../sass/_rafo.scss */
+/* line 75, ../sass/_rafo.scss */
 .start_sience_youth:hover {
   border-top: 20px solid #00A0B8;
+}
+
+/* line 79, ../sass/_rafo.scss */
+#sof_page_container {
+  width: 100%;
+  background-color: white;
+  margin-top: 94px;
+}
+
+/* line 84, ../sass/_rafo.scss */
+#sof_page_menu {
+  background-color: #911B4B;
+}
+/* line 86, ../sass/_rafo.scss */
+#sof_page_menu .sof_menu_logo {
+  background-image: url("../img/logo_main_white.png");
+}
+
+/* line 90, ../sass/_rafo.scss */
+.sof_menu_logo {
+  background-image: url("../img/logo_main_white.png");
+  background-repeat: no-repeat;
+  width: 200px;
+}
+
+/* line 95, ../sass/_rafo.scss */
+.menu {
+  overflow: hidden;
+}
+/* line 97, ../sass/_rafo.scss */
+.menu > ul {
+  height: 140px;
+}
+/* line 99, ../sass/_rafo.scss */
+.menu > ul > li {
+  float: left;
+  height: 140px;
+  background-image: url("../img/menu_border.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+/* line 105, ../sass/_rafo.scss */
+.menu > ul > li > a {
+  height: 140px;
+  padding: 75px 60px 0 60px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 /* line 1, ../sass/_common.scss */
