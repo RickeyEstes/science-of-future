@@ -1,0 +1,15 @@
+jekyll serve -w --baseurl ''
+
+compass watch
+
+hima sublime um= >>>>>>>>
+
+ctrl + shift + p
+
+git add
+
+git commmit
+
+ctrl + W
+
+git push
