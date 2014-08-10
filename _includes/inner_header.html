@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>science-of-future-youth</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
    
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/screen.css">
+    <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}">
 </head>
-<body class="  ">
+<body class="{% if page.url == '/' %} home {% else %} {{page.url | first }} {% endif %}">
 	<div id="wrapper" class="sof_page">
 		<div id="sof_page_holder">
 			<div id="sof_page_menu" class="menu">
@@ -29,17 +29,3 @@
 						<button type="submit"></button>
 					</div>
 				</div>
-
-
-
-
-
-
-
-			</div>
-		</div>
-	</div>
-	<script src="js/jquery-1.8.3.min.js"></script>
-  	<script src="js/functions."></script>
-</body>
-</html> 
