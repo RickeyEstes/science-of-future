@@ -1,9 +1,8 @@
 $(document).ready(function() {
     
-
     //--------------MENU HOVER-------------------
 
-    var menu_elemtn = $('.container').find('a');
+    var menu_elemtn = $('#sof_page_menu').find('a');
 
     menu_elemtn.on('mouseenter', menu_hover);
     menu_elemtn.on('mouseleave', menu_out);
@@ -16,4 +15,6 @@ $(document).ready(function() {
     	var _this = $(this);
     	_this.stop(true, true).animate({backgroundColor:'#911B4B', color: 'white'}, 200);
     } 
+
+    //--------------MENU HOVER-------------------
 });
