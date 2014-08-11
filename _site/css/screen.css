@@ -418,23 +418,22 @@ body {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 22px;
 }
-/* line 286, ../sass/_rafo.scss */
+/* line 285, ../sass/_rafo.scss */
 #report_brief > div > span {
   text-transform: none;
   font-weight: normal;
   font-size: 16px;
 }
 
-/* line 293, ../sass/_rafo.scss */
+/* line 292, ../sass/_rafo.scss */
 #talking_points {
   font-size: 18px;
   color: #911B4B;
   padding: 15px;
   font-weight: bold;
 }
-/* line 298, ../sass/_rafo.scss */
+/* line 297, ../sass/_rafo.scss */
 #talking_points > p {
   font-size: 16px;
   font-weight: normal;
@@ -444,7 +443,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 307, ../sass/_rafo.scss */
+/* line 306, ../sass/_rafo.scss */
 .print {
   height: 54px;
   width: 50px;
@@ -455,17 +454,17 @@ body {
   background-position: 50% 50%;
 }
 
-/* line 316, ../sass/_rafo.scss */
+/* line 315, ../sass/_rafo.scss */
 #sections_holder, #SO_holder {
   margin-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 320, ../sass/_rafo.scss */
+/* line 319, ../sass/_rafo.scss */
 .section_title {
   border-bottom: 1px solid #C3005E;
 }
-/* line 322, ../sass/_rafo.scss */
+/* line 321, ../sass/_rafo.scss */
 .section_title > a {
   text-decoration: none;
   color: #413D3B;
@@ -477,7 +476,7 @@ body {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 330, ../sass/_rafo.scss */
+/* line 329, ../sass/_rafo.scss */
 .section_title > a:hover {
   color: white;
   background-color: #C3005E;
