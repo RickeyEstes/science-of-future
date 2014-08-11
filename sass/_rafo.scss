@@ -99,8 +99,8 @@ body {
 	background-image: url('../img/logo_main_white.png');
 	background-repeat: no-repeat;
 	width: 230px;
-}
-.menu{
+}   
+ .menu{
 	overflow: hidden;
 	>ul{
 		height: 140px;
@@ -121,6 +121,9 @@ body {
 				@include transition(all 0.4s ease);
 			}
 		}
+	}
+	&_item.menu_selected + li{
+		background-image: none;
 	}
 }
 .menu_border{

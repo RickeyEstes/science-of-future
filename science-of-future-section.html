@@ -1,16 +1,14 @@
 ---
 layout: no-index
 title: science-of-future-section
+active: active
 ---
 
 <div id="sections_holder">
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">LIFE SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">EARTH SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">PHYSICAL SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">LIFE SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">EARTH SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">PHYSICAL SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">LIFE SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">EARTH SCIENCE</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">PHYSICAL SCIENCE</a></div>
+	{% for post in site.posts %}
+	<div class="section_title"><a href="{{site.baseurl}}/science-of-future-from-section">{{post.section}}</a></div>
+	{% endfor %}
 </div>
+
+
+
