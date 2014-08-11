@@ -4,104 +4,18 @@ title: science-of-future
 ---
 
 			<ul id="authors_list">
+				{% for post in site.posts %}
+					
+				
 				<li>
 					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• ALEXANDER S. SOTNICHENKO</a>
-						<p>PhD-position student</p>
+						<a href="{{site.baseurl}}{{post.url}}">• {{post.author}}</a>
+						<p>{{post.karg}}</p>
 					</div>
 					<div class="report_title">
-						<p class="report_section">Physics. Nanotechnology.<br>Material Technology. Space</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
+						<p class="report_section">{{post.section}}</p>
+						<span>REPORT TITLE: «{{post.title}}»</span>
 					</div>
 				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• ALEXANDER S. SOTNICHENKO</a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">Mechanics and Engineering.<br>Energy</p>
-						<span>REPORT TITLE: «Top-down versus bottom-up estimates of methane fluxes over the East Siberian Arctic Shelf»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• NATALIA SHAKHOVA </a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">life<br>science</p>
-						<span>REPORT TITLE: «In vivo two-photon calcium imaging of neuronal activity in newborn mouse with GCaMP6m calcium indicator»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• DINARA AKHMETSHINA</a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">physical<br>science</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• ALEXANDER S. SOTNICHENKO</a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">chemistry</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• ALEXANDER S. SOTNICHENKO</a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">earth<br>science</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• ALEXANDER S. SOTNICHENKO</a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">life<br>science</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• NATALIA SHAKHOVA </a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">life<br>science</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• DINARA AKHMETSHINA</a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">physical<br>science</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
-					</div>
-				</li>
-				<li>
-					<div class="author_block">
-						<a href="{{site.baseurl}}/science-of-future-author">• ALEXANDER S. SOTNICHENKO</a>
-						<p>PhD-position student</p>
-					</div>
-					<div class="report_title">
-						<p class="report_section">chemistry</p>
-						<span>REPORT TITLE: «Repopulation of decellularized rat heart scaffold with rat MSCs»</span>
-					</div>
-				</li>
+				{% endfor %}
 			</ul>
