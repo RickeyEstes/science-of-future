@@ -352,14 +352,14 @@ body {
 }
 /* line 223, ../sass/_rafo.scss */
 #authors_list > li > .report_title > .report_section {
-  width: 180px;
+  width: 185px;
   height: 44px;
   color: #413D3B;
   font-weight: bold;
   font-size: 14px;
   float: left;
   line-height: 18px;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 /* line 233, ../sass/_rafo.scss */
 #authors_list > li > .report_title > span {
