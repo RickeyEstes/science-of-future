@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -77,31 +77,32 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   height: 100%;
   min-width: 1024px;
+  background: #E7E7E7;
 }
 
-/* line 10, ../sass/_rafo.scss */
+/* line 11, ../sass/_rafo.scss */
 #wrapper {
   min-width: 1024px;
 }
 
-/* line 16, ../sass/_rafo.scss */
+/* line 17, ../sass/_rafo.scss */
 .container {
   width: 1014px;
   min-width: 1014px;
   margin: 0 auto;
 }
 
-/* line 21, ../sass/_rafo.scss */
+/* line 22, ../sass/_rafo.scss */
 .fl-left {
   float: left;
 }
 
-/* line 24, ../sass/_rafo.scss */
+/* line 25, ../sass/_rafo.scss */
 .fl-right {
   float: right;
 }
 
-/* line 27, ../sass/_rafo.scss */
+/* line 28, ../sass/_rafo.scss */
 .start_page {
   width: 100%;
   height: 100%;
@@ -110,10 +111,12 @@ body {
   background-size: cover;
   border-left: 5px solid #E7E7E7;
   border-right: 5px solid #E7E7E7;
-  position: absolute;
+  width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-/* line 37, ../sass/_rafo.scss */
+/* line 41, ../sass/_rafo.scss */
 .sof_page {
   width: 100%;
   background-image: url("../img/bg.png");
@@ -125,7 +128,7 @@ body {
   position: absolute;
 }
 
-/* line 47, ../sass/_rafo.scss */
+/* line 51, ../sass/_rafo.scss */
 #start_menu_holder {
   height: 350px;
   width: 100%;
@@ -135,7 +138,7 @@ body {
   border-bottom: 2px solid #5C133A;
 }
 
-/* line 55, ../sass/_rafo.scss */
+/* line 59, ../sass/_rafo.scss */
 .separator {
   width: 2px;
   height: 300px;
@@ -143,7 +146,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 64, ../sass/_rafo.scss */
+/* line 68, ../sass/_rafo.scss */
 .start_menu_logo {
   width: 350px;
   height: 330px;
@@ -152,68 +155,68 @@ body {
   border-top: 20px solid white;
   margin-top: 20px;
 }
-/* line 71, ../sass/_rafo.scss */
+/* line 75, ../sass/_rafo.scss */
 .start_menu_logo > img {
   height: 230px;
 }
 
-/* line 75, ../sass/_rafo.scss */
+/* line 79, ../sass/_rafo.scss */
 .start_sience {
   padding: 35px 60px;
 }
-/* line 77, ../sass/_rafo.scss */
+/* line 81, ../sass/_rafo.scss */
 .start_sience:hover {
   border-top: 20px solid #911B4B;
 }
 
-/* line 81, ../sass/_rafo.scss */
+/* line 85, ../sass/_rafo.scss */
 .start_sience_youth {
   padding: 35px 0px;
 }
-/* line 83, ../sass/_rafo.scss */
+/* line 87, ../sass/_rafo.scss */
 .start_sience_youth:hover {
   border-top: 20px solid #00A0B8;
 }
 
-/* line 87, ../sass/_rafo.scss */
+/* line 91, ../sass/_rafo.scss */
 #sof_page_holder {
   width: 100%;
   background-color: white;
   margin-top: 94px;
 }
 
-/* line 92, ../sass/_rafo.scss */
+/* line 96, ../sass/_rafo.scss */
 #sof_page_menu {
   background-color: #911B4B;
 }
-/* line 94, ../sass/_rafo.scss */
+/* line 98, ../sass/_rafo.scss */
 #sof_page_menu .sof_menu_logo {
   background-image: url("../img/logo_main_white.png");
 }
 
-/* line 98, ../sass/_rafo.scss */
+/* line 102, ../sass/_rafo.scss */
 .sof_menu_logo {
   background-image: url("../img/logo_main_white.png");
   background-repeat: no-repeat;
   width: 230px;
 }
 
-/* line 103, ../sass/_rafo.scss */
+/* line 107, ../sass/_rafo.scss */
 .menu {
   overflow: hidden;
 }
-/* line 105, ../sass/_rafo.scss */
+/* line 109, ../sass/_rafo.scss */
 .menu > ul {
   height: 140px;
 }
-/* line 107, ../sass/_rafo.scss */
+/* line 111, ../sass/_rafo.scss */
 .menu > ul > li {
   float: left;
   height: 140px;
   background-position: 20% 50%;
   background-repeat: no-repeat;
 }
-/* line 112, ../sass/_rafo.scss */
+/* line 116, ../sass/_rafo.scss */
 .menu > ul > li > a {
   height: 140px;
   padding: 75px 80px 0 80px;
@@ -224,7 +227,6 @@ body {
   font-weight: bold;
   font-size: 16px;
   -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -233,13 +235,21 @@ body {
   background-image: none;
 }
 
+<<<<<<< HEAD
+/* line 130, ../sass/_rafo.scss */
+=======
 /* line 129, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 .menu_border {
   background-image: url("../img/menu_border.png");
   background-position: 0 50% !important;
 }
 
+<<<<<<< HEAD
+/* line 134, ../sass/_rafo.scss */
+=======
 /* line 133, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #sof_page_menu .menu_selected > a {
   background-color: white;
   color: #911B4B;
@@ -247,23 +257,39 @@ body {
   border-bottom: 1px solid #911B4B;
 }
 
+<<<<<<< HEAD
+/* line 143, ../sass/_rafo.scss */
+=======
 /* line 142, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #top_bar {
   margin-top: 5px;
 }
 
+<<<<<<< HEAD
+/* line 146, ../sass/_rafo.scss */
+=======
 /* line 145, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #sof_page_menu .last_menu_item > a {
   padding: 59px 60px 0 60px;
 }
 
+<<<<<<< HEAD
+/* line 149, ../sass/_rafo.scss */
+=======
 /* line 148, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #prev_page {
   width: 230px;
   float: left;
   margin-right: 10px;
 }
+<<<<<<< HEAD
+/* line 153, ../sass/_rafo.scss */
+=======
 /* line 152, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #prev_page > a {
   text-decoration: none;
   text-transform: uppercase;
@@ -277,11 +303,19 @@ body {
   display: block;
 }
 
+<<<<<<< HEAD
+/* line 166, ../sass/_rafo.scss */
+#search {
+  overflow: hidden;
+}
+/* line 168, ../sass/_rafo.scss */
+=======
 /* line 165, ../sass/_rafo.scss */
 #search {
   overflow: hidden;
 }
 /* line 167, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #search > input {
   width: 746px;
   height: 30px;
@@ -291,7 +325,11 @@ body {
   float: left;
   outline: 0;
 }
+<<<<<<< HEAD
+/* line 177, ../sass/_rafo.scss */
+=======
 /* line 176, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #search > button {
   height: 30px;
   width: 30px;
@@ -306,11 +344,19 @@ body {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
+/* line 191, ../sass/_rafo.scss */
+#authors_list {
+  padding-bottom: 50px;
+}
+/* line 194, ../sass/_rafo.scss */
+=======
 /* line 190, ../sass/_rafo.scss */
 #authors_list {
   padding-bottom: 50px;
 }
 /* line 193, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #authors_list > li {
   width: 100%;
   height: 75px;
@@ -319,12 +365,20 @@ body {
   padding: 30px 10px 50px;
   overflow: hidden;
 }
+<<<<<<< HEAD
+/* line 202, ../sass/_rafo.scss */
+=======
 /* line 201, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #authors_list > li > .author_block {
   width: 240px;
   float: left;
 }
+<<<<<<< HEAD
+/* line 206, ../sass/_rafo.scss */
+=======
 /* line 205, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #authors_list > li > .author_block > a {
   color: #911B4B;
   text-decoration: none;
@@ -332,18 +386,30 @@ body {
   font-weight: bold;
   font-size: 14px;
 }
+<<<<<<< HEAD
+/* line 213, ../sass/_rafo.scss */
+=======
 /* line 212, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #authors_list > li > .author_block > p {
   color: #413D3B;
   font-size: 13px;
   font-style: italic;
   margin-top: 3px;
 }
+<<<<<<< HEAD
+/* line 220, ../sass/_rafo.scss */
+#authors_list > li > .report_title {
+  font-size: 15px;
+}
+/* line 222, ../sass/_rafo.scss */
+=======
 /* line 219, ../sass/_rafo.scss */
 #authors_list > li > .report_title {
   font-size: 15px;
 }
 /* line 221, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #authors_list > li > .report_title > .report_section {
   width: 180px;
   height: 44px;
@@ -354,24 +420,40 @@ body {
   line-height: 18px;
   margin-right: 25px;
 }
+<<<<<<< HEAD
+/* line 232, ../sass/_rafo.scss */
+=======
 /* line 231, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #authors_list > li > .report_title > span {
   color: #858383;
   line-height: 19px;
 }
 
+<<<<<<< HEAD
+/* line 239, ../sass/_rafo.scss */
+=======
 /* line 238, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_holder {
   margin-top: 10px;
   overflow: hidden;
 }
 
+<<<<<<< HEAD
+/* line 243, ../sass/_rafo.scss */
+=======
 /* line 242, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_info {
   width: 325px;
   float: left;
 }
+<<<<<<< HEAD
+/* line 246, ../sass/_rafo.scss */
+=======
 /* line 245, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_info > .section {
   color: white;
   font-size: 18px;
@@ -379,21 +461,33 @@ body {
   background-color: #C3005E;
   padding: 15px;
 }
+<<<<<<< HEAD
+/* line 253, ../sass/_rafo.scss */
+=======
 /* line 252, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_info > .section > span {
   font-size: 16px;
   font-weight: normal;
   color: white;
   line-height: 0;
 }
+<<<<<<< HEAD
+/* line 260, ../sass/_rafo.scss */
+=======
 /* line 259, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_info div {
   color: #911B4B;
   padding: 15px 15px 0 15px;
   font-weight: bold;
   font-size: 18px;
 }
+<<<<<<< HEAD
+/* line 265, ../sass/_rafo.scss */
+=======
 /* line 264, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_info div > span {
   font-size: 16px;
   color: #858383;
@@ -401,7 +495,11 @@ body {
   line-height: 20px;
 }
 
+<<<<<<< HEAD
+/* line 273, ../sass/_rafo.scss */
+=======
 /* line 272, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report {
   width: 675px;
   border-left: 1px dotted #8D8B8B;
@@ -410,34 +508,54 @@ body {
   margin-left: 340px;
 }
 
+<<<<<<< HEAD
+/* line 280, ../sass/_rafo.scss */
+=======
 /* line 279, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_brief {
   background-color: #5D0F3A;
   color: white;
   padding-bottom: 15px;
 }
+<<<<<<< HEAD
+/* line 284, ../sass/_rafo.scss */
+=======
 /* line 283, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_brief > div {
   padding: 15px 15px 0 15px;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
 }
+<<<<<<< HEAD
+/* line 289, ../sass/_rafo.scss */
+=======
 /* line 288, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #report_brief > div > span {
   text-transform: none;
   font-weight: normal;
   font-size: 16px;
 }
 
+<<<<<<< HEAD
+/* line 296, ../sass/_rafo.scss */
+=======
 /* line 295, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #talking_points {
   font-size: 18px;
   color: #911B4B;
   padding: 15px;
   font-weight: bold;
 }
+<<<<<<< HEAD
+/* line 301, ../sass/_rafo.scss */
+=======
 /* line 300, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #talking_points > p {
   font-size: 16px;
   font-weight: normal;
@@ -447,7 +565,11 @@ body {
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
+/* line 310, ../sass/_rafo.scss */
+=======
 /* line 309, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 .print {
   height: 54px;
   width: 50px;
@@ -458,17 +580,29 @@ body {
   background-position: 50% 50%;
 }
 
+<<<<<<< HEAD
+/* line 319, ../sass/_rafo.scss */
+=======
 /* line 318, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 #sections_holder, #SO_holder {
   margin-top: 20px;
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
+/* line 323, ../sass/_rafo.scss */
+.section_title {
+  border-bottom: 1px solid #C3005E;
+}
+/* line 325, ../sass/_rafo.scss */
+=======
 /* line 322, ../sass/_rafo.scss */
 .section_title {
   border-bottom: 1px solid #C3005E;
 }
 /* line 324, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 .section_title > a {
   text-decoration: none;
   color: #413D3B;
@@ -476,11 +610,14 @@ body {
   display: block;
   padding: 15px;
   -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+<<<<<<< HEAD
+/* line 333, ../sass/_rafo.scss */
+=======
 /* line 332, ../sass/_rafo.scss */
+>>>>>>> 734cb517f448cbdb28fe5f105c1cdbe09441e2e0
 .section_title > a:hover {
   color: white;
   background-color: #C3005E;
@@ -497,7 +634,7 @@ body {
 .clearfix {
   *zoom: 1;
 }
-/* line 38, ../../../../../../PortableJekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.21/stylesheets/compass/utilities/general/_clearfix.scss */
 .clearfix:after {
   content: "";
   display: table;

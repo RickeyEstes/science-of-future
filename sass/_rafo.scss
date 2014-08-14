@@ -6,8 +6,9 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	height: 100%;
 	min-width: 1024px;
+	background: #E7E7E7;
 }
-#wrapper{
+#wrapper{ 
 	min-width: 1024px;
 }
 #main_page{
@@ -32,7 +33,10 @@ body {
 	background-size: cover;
 	border-left: 5px solid #E7E7E7;
 	border-right: 5px solid #E7E7E7;
-	position: absolute;
+	width: 1024px;
+	margin: 0 auto;
+overflow: hidden;
+	
 }
 .sof_page{
 	width: 100%;

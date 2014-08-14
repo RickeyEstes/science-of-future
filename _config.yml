@@ -11,3 +11,6 @@ markdown: rdiscount
 permalink: pretty
 # permalink: /:categories/:title
 extensions: [fenced_code_blocks]
+collections:
+ sections:
+  output: true
