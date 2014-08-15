@@ -115,7 +115,7 @@ body {
   overflow: hidden;
 }
 
-/* line 40, ../sass/_rafo.scss */
+/* line 39, ../sass/_rafo.scss */
 .sof_page {
   background-image: url("../img/2x/bg.png");
   background-repeat: no-repeat;
@@ -123,7 +123,13 @@ body {
   background-position: top right;
 }
 
-/* line 46, ../sass/_rafo.scss */
+/* line 45, ../sass/_rafo.scss */
+.sof_page_youth {
+  background-image: url("../img/2x/bg_youth.png") !important;
+  background-position: top left !important;
+}
+
+/* line 49, ../sass/_rafo.scss */
 #start_menu_holder {
   height: 350px;
   width: 100%;
@@ -133,7 +139,7 @@ body {
   border-bottom: 2px solid #5C133A;
 }
 
-/* line 54, ../sass/_rafo.scss */
+/* line 57, ../sass/_rafo.scss */
 .separator {
   width: 2px;
   height: 300px;
@@ -141,7 +147,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 63, ../sass/_rafo.scss */
+/* line 66, ../sass/_rafo.scss */
 .start_menu_logo {
   width: 350px;
   height: 330px;
@@ -150,12 +156,12 @@ body {
   border-top: 20px solid white;
   margin-top: 20px;
 }
-/* line 70, ../sass/_rafo.scss */
+/* line 73, ../sass/_rafo.scss */
 .start_menu_logo > img {
   height: 230px;
 }
 
-/* line 74, ../sass/_rafo.scss */
+/* line 77, ../sass/_rafo.scss */
 .start_sience {
   padding: 35px 60px;
   -moz-transition: all 0.4s ease;
@@ -163,12 +169,12 @@ body {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 77, ../sass/_rafo.scss */
+/* line 80, ../sass/_rafo.scss */
 .start_sience:hover {
   border-top: 20px solid #911B4B;
 }
 
-/* line 81, ../sass/_rafo.scss */
+/* line 84, ../sass/_rafo.scss */
 .start_sience_youth {
   padding: 35px 0px;
   -moz-transition: all 0.4s ease;
@@ -176,46 +182,53 @@ body {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 84, ../sass/_rafo.scss */
+/* line 87, ../sass/_rafo.scss */
 .start_sience_youth:hover {
   border-top: 20px solid #00A0B8;
 }
 
-/* line 88, ../sass/_rafo.scss */
+/* line 91, ../sass/_rafo.scss */
 #sof_page_holder {
   width: 100%;
   background-color: white;
   margin-top: 93px;
 }
 
-/* line 93, ../sass/_rafo.scss */
+/* line 96, ../sass/_rafo.scss */
 #sof_page_menu {
   background-color: #911B4B;
 }
 
-/* line 96, ../sass/_rafo.scss */
+/* line 99, ../sass/_rafo.scss */
 .sof_menu_logo {
   background-image: url("../img/2x/logo_main_white.png");
   width: 245px;
   background-size: 110px;
 }
 
-/* line 101, ../sass/_rafo.scss */
+/* line 104, ../sass/_rafo.scss */
+#sof_page_menu .sof_menu_logo_youth {
+  background-image: url("../img/2x/logo_main_youth_white.png");
+  background-size: 180px;
+  background-position: 50% 50%;
+}
+
+/* line 109, ../sass/_rafo.scss */
 .menu {
   overflow: hidden;
 }
-/* line 103, ../sass/_rafo.scss */
+/* line 111, ../sass/_rafo.scss */
 .menu > ul {
   height: 140px;
 }
-/* line 105, ../sass/_rafo.scss */
+/* line 113, ../sass/_rafo.scss */
 .menu > ul > li {
   float: left;
   height: 140px;
   background-position: 20% 50%;
   background-repeat: no-repeat;
 }
-/* line 110, ../sass/_rafo.scss */
+/* line 118, ../sass/_rafo.scss */
 .menu > ul > li > a {
   height: 140px;
   padding: 75px 80px 0 80px;
@@ -230,19 +243,19 @@ body {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 123, ../sass/_rafo.scss */
+/* line 131, ../sass/_rafo.scss */
 .menu_item.menu_selected + li {
   background-image: none;
 }
 
-/* line 127, ../sass/_rafo.scss */
+/* line 135, ../sass/_rafo.scss */
 .menu_border {
   background-image: url("../img/2x/menu_border.png");
   background-position: 0 50% !important;
   background-size: 3px 120px;
 }
 
-/* line 132, ../sass/_rafo.scss */
+/* line 140, ../sass/_rafo.scss */
 #sof_page_menu .menu_selected > a {
   background-color: white;
   color: #911B4B;
@@ -250,25 +263,44 @@ body {
   border-bottom: 1px solid #911B4B;
 }
 
-/* line 141, ../sass/_rafo.scss */
+/* line 146, ../sass/_rafo.scss */
+#sof_page_holder > .sof_page_menu_youth .menu_selected > a {
+  color: #00A0B8;
+  border-top: 1px solid #00A0B8;
+  border-bottom: 1px solid #00A0B8;
+}
+
+/* line 154, ../sass/_rafo.scss */
 #top_bar {
   width: 985px;
   overflow: hidden;
   margin: 5px auto;
 }
 
-/* line 146, ../sass/_rafo.scss */
+/* line 164, ../sass/_rafo.scss */
+#sof_page_container > .top_bar_youth > #prev_page > a {
+  background-image: url("../img/2x/back_blue.png");
+  color: #00A0B8;
+  border: 2px solid #00A0B8;
+}
+
+/* line 172, ../sass/_rafo.scss */
 #sof_page_menu .last_menu_item > a {
   padding: 59px 60px 0 60px;
 }
 
-/* line 149, ../sass/_rafo.scss */
+/* line 175, ../sass/_rafo.scss */
+#sof_page_holder > .sof_page_menu_youth {
+  background-color: #00A0B8;
+}
+
+/* line 178, ../sass/_rafo.scss */
 #prev_page {
   width: 222px;
   float: left;
   margin-right: 10px;
 }
-/* line 153, ../sass/_rafo.scss */
+/* line 182, ../sass/_rafo.scss */
 #prev_page > a {
   text-decoration: none;
   text-transform: uppercase;
@@ -283,11 +315,11 @@ body {
   display: block;
 }
 
-/* line 167, ../sass/_rafo.scss */
+/* line 196, ../sass/_rafo.scss */
 #search {
   overflow: hidden;
 }
-/* line 169, ../sass/_rafo.scss */
+/* line 198, ../sass/_rafo.scss */
 #search > input {
   width: 725px;
   height: 30px;
@@ -297,7 +329,7 @@ body {
   float: left;
   outline: 0;
 }
-/* line 178, ../sass/_rafo.scss */
+/* line 207, ../sass/_rafo.scss */
 #search > button {
   height: 30px;
   width: 30px;
@@ -312,11 +344,11 @@ body {
   cursor: pointer;
 }
 
-/* line 192, ../sass/_rafo.scss */
+/* line 221, ../sass/_rafo.scss */
 #authors_list {
   padding-bottom: 50px;
 }
-/* line 195, ../sass/_rafo.scss */
+/* line 224, ../sass/_rafo.scss */
 #authors_list > li {
   width: 980px;
   height: 75px;
@@ -326,12 +358,12 @@ body {
   overflow: hidden;
   margin: 0 auto;
 }
-/* line 203, ../sass/_rafo.scss */
+/* line 232, ../sass/_rafo.scss */
 #authors_list > li > .author_block {
   width: 240px;
   float: left;
 }
-/* line 207, ../sass/_rafo.scss */
+/* line 236, ../sass/_rafo.scss */
 #authors_list > li > .author_block > a {
   color: #911B4B;
   text-decoration: none;
@@ -339,18 +371,18 @@ body {
   font-weight: bold;
   font-size: 14px;
 }
-/* line 214, ../sass/_rafo.scss */
+/* line 243, ../sass/_rafo.scss */
 #authors_list > li > .author_block > p {
   color: #413D3B;
   font-size: 13px;
   font-style: italic;
   margin-top: 3px;
 }
-/* line 221, ../sass/_rafo.scss */
+/* line 250, ../sass/_rafo.scss */
 #authors_list > li > .report_title {
   font-size: 15px;
 }
-/* line 223, ../sass/_rafo.scss */
+/* line 252, ../sass/_rafo.scss */
 #authors_list > li > .report_title > .report_section {
   width: 185px;
   height: 44px;
@@ -361,25 +393,40 @@ body {
   line-height: 18px;
   margin-right: 20px;
 }
-/* line 233, ../sass/_rafo.scss */
+/* line 262, ../sass/_rafo.scss */
 #authors_list > li > .report_title > span {
   color: #858383;
   line-height: 19px;
 }
 
-/* line 240, ../sass/_rafo.scss */
+/* line 270, ../sass/_rafo.scss */
+.author_block_youth > a {
+  color: #004f90 !important;
+}
+
+/* line 274, ../sass/_rafo.scss */
 #report_holder {
   margin-top: 10px;
   overflow: hidden;
 }
 
-/* line 244, ../sass/_rafo.scss */
+/* line 280, ../sass/_rafo.scss */
+#report_holder .report_info_youth > .section {
+  background-color: #005091;
+  color: white;
+}
+/* line 284, ../sass/_rafo.scss */
+#report_holder .report_info_youth div {
+  color: #004F90;
+}
+
+/* line 289, ../sass/_rafo.scss */
 #report_info {
   width: 315px;
   float: left;
   margin-left: 20px;
 }
-/* line 248, ../sass/_rafo.scss */
+/* line 293, ../sass/_rafo.scss */
 #report_info > .section {
   color: white;
   font-size: 18px;
@@ -387,21 +434,21 @@ body {
   background-color: #C3005E;
   padding: 15px;
 }
-/* line 255, ../sass/_rafo.scss */
+/* line 300, ../sass/_rafo.scss */
 #report_info > .section > span {
   font-size: 16px;
   font-weight: normal;
   color: white;
   line-height: 0;
 }
-/* line 262, ../sass/_rafo.scss */
+/* line 307, ../sass/_rafo.scss */
 #report_info div {
   color: #911B4B;
   padding: 15px 15px 0 15px;
   font-weight: bold;
   font-size: 18px;
 }
-/* line 267, ../sass/_rafo.scss */
+/* line 312, ../sass/_rafo.scss */
 #report_info div > span {
   font-size: 16px;
   color: #858383;
@@ -409,7 +456,7 @@ body {
   line-height: 20px;
 }
 
-/* line 275, ../sass/_rafo.scss */
+/* line 320, ../sass/_rafo.scss */
 #report {
   width: 675px;
   border-left: 1px dotted #8D8B8B;
@@ -418,34 +465,39 @@ body {
   margin-left: 350px;
 }
 
-/* line 282, ../sass/_rafo.scss */
+/* line 328, ../sass/_rafo.scss */
+#report .report_brief_youth {
+  background-color: #A5C300;
+}
+
+/* line 332, ../sass/_rafo.scss */
 #report_brief {
   background-color: #5D0F3A;
   color: white;
   padding-bottom: 15px;
 }
-/* line 286, ../sass/_rafo.scss */
+/* line 336, ../sass/_rafo.scss */
 #report_brief > div {
   padding: 15px 30px 0 15px;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 291, ../sass/_rafo.scss */
+/* line 341, ../sass/_rafo.scss */
 #report_brief > div > span {
   text-transform: none;
   font-weight: normal;
   font-size: 16px;
 }
 
-/* line 298, ../sass/_rafo.scss */
+/* line 348, ../sass/_rafo.scss */
 #talking_points {
   font-size: 18px;
   color: #911B4B;
   padding: 15px 35px 15px 15px;
   font-weight: bold;
 }
-/* line 303, ../sass/_rafo.scss */
+/* line 353, ../sass/_rafo.scss */
 #talking_points > p {
   font-size: 16px;
   font-weight: normal;
@@ -455,7 +507,12 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 312, ../sass/_rafo.scss */
+/* line 362, ../sass/_rafo.scss */
+.talking_points_youth {
+  color: #004f90 !important;
+}
+
+/* line 365, ../sass/_rafo.scss */
 .print {
   height: 54px;
   width: 50px;
@@ -467,19 +524,19 @@ body {
   background-position: 50% 50%;
 }
 
-/* line 322, ../sass/_rafo.scss */
+/* line 375, ../sass/_rafo.scss */
 #sections_holder, #SO_holder {
   margin-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 326, ../sass/_rafo.scss */
+/* line 379, ../sass/_rafo.scss */
 .section_title {
   border-bottom: 1px solid #C3005E;
   width: 985px;
   margin: 0 auto;
 }
-/* line 330, ../sass/_rafo.scss */
+/* line 383, ../sass/_rafo.scss */
 .section_title > a {
   text-decoration: none;
   color: #413D3B;
@@ -491,10 +548,27 @@ body {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 338, ../sass/_rafo.scss */
+/* line 391, ../sass/_rafo.scss */
 .section_title > a:hover {
   color: white;
   background-color: #C3005E;
+}
+
+/* line 398, ../sass/_rafo.scss */
+#sections_holder .section_title_youth, #SO_holder .section_title_youth {
+  border-bottom: 1px solid #005091;
+}
+/* line 400, ../sass/_rafo.scss */
+#sections_holder .section_title_youth a, #SO_holder .section_title_youth a {
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+/* line 402, ../sass/_rafo.scss */
+#sections_holder .section_title_youth a:hover, #SO_holder .section_title_youth a:hover {
+  color: white;
+  background-color: #A5C300;
 }
 
 /* line 1, ../sass/_common.scss */

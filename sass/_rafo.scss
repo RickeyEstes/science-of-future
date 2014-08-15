@@ -35,13 +35,16 @@ body {
 	width: 1024px;
 	margin: 0 auto;
 	overflow: hidden;
-	
 }
 .sof_page{
 	background-image: url('../img/2x/bg.png');
 	background-repeat: no-repeat;
 	background-size: 1024px;
 	background-position: top right;
+}
+.sof_page_youth{
+	background-image: url('../img/2x/bg_youth.png')!important;
+	background-position: top left!important;
 }
 #start_menu_holder{
 	height: 350px;
@@ -98,6 +101,11 @@ body {
 	width: 245px;
 	background-size: 110px;
 }   
+#sof_page_menu .sof_menu_logo_youth{
+	background-image: url('../img/2x/logo_main_youth_white.png');
+	background-size: 180px; 
+	background-position: 50% 50%;
+}
  .menu{
 	overflow: hidden;
 	>ul{
@@ -135,6 +143,11 @@ body {
 	border-top: 1px solid #911B4B;
 	border-bottom: 1px solid #911B4B;
 }
+#sof_page_holder > .sof_page_menu_youth .menu_selected > a{
+	color: #00A0B8;
+	border-top: 1px solid #00A0B8;
+	border-bottom: 1px solid #00A0B8;
+}
 .menu > ul > li:hover{
 
 }
@@ -143,8 +156,24 @@ body {
 	overflow: hidden;
 	margin: 5px auto;
 }
+#sof_page_container {
+
+	> .top_bar_youth{
+
+		>#prev_page{
+			>a{
+				background-image: url('../img/2x/back_blue.png');
+				color: #00A0B8;
+				border: 2px solid #00A0B8;
+			}
+		}
+	}
+} 
 #sof_page_menu .last_menu_item > a{
 	padding: 59px 60px 0 60px;
+}
+#sof_page_holder > .sof_page_menu_youth{
+	background-color: #00A0B8;
 }
 #prev_page{
 	width: 222px;
@@ -237,9 +266,25 @@ body {
 		}
 	}
 }
+.author_block_youth{
+	>a{
+		color: #004F90!important;
+	}
+}
 #report_holder{
 	margin-top:10px;
 	overflow: hidden;
+}
+#report_holder{
+	.report_info_youth{
+		>.section{
+			background-color: #005091;
+			color: white;
+		}
+		div{
+			color: #004F90;
+		}
+	}
 }
 #report_info{
 	width: 315px;
@@ -279,6 +324,11 @@ body {
 	padding-bottom: 20px;
 	margin-left: 350px;
 }
+#report{
+	.report_brief_youth{
+		background-color: #A5C300;
+	}
+}
 #report_brief{
 	background-color: #5D0F3A;
 	color: white;
@@ -308,6 +358,9 @@ body {
 		margin-top: 5px;
 		padding-bottom: 20px;
 	}
+}
+.talking_points_youth{
+	color: #004F90!important;
 }
 .print{
 	height: 54px;
@@ -341,4 +394,15 @@ body {
 		}
 	}
 }
-
+#sections_holder, #SO_holder{
+	.section_title_youth{
+		border-bottom: 1px solid #005091;
+		a{
+			@include transition(all 0.4s ease);
+			&:hover{
+				color: white;
+				background-color: #A5C300;
+			}
+		}
+	}
+}

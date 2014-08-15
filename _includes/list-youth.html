@@ -1,0 +1,19 @@
+
+<ul id="authors_list">
+	{% for post in site.posts %}
+	
+	<li>
+		<div class="author_block author_block_youth">
+			<a href="{{site.baseurl}}{{post.url}}">• {{post.author}}</a>
+			<p>{{post.karg}}</p>
+		</div>
+		<div class="report_title">
+			<p class="report_section">{{post.section}}</p>
+			<span>REPORT TITLE: «{{post.title}}»</span>
+		</div>
+	</li>	
+
+	
+
+	{% endfor %}
+</ul>
