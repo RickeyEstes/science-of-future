@@ -6,8 +6,8 @@ page: section
 ---
 
 <div id="sections_holder">
-	{% for post in site.posts %}
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future-from-section">{{post.section}}</a></div>
+	{% for section in site.sections %}
+	<div class="section_title"><a href="{{site.baseurl}}{{section.url}}">{{section.title}}</a></div>
 	{% endfor %}
 </div>
 

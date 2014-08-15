@@ -12,5 +12,7 @@ permalink: pretty
 # permalink: /:categories/:title
 extensions: [fenced_code_blocks]
 collections:
+ reports:
+  output: true 
  sections:
   output: true
