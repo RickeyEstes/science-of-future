@@ -1,0 +1,742 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aja",
+				"ajaxstart	$.ajaxStart()"
+			],
+			[
+				"re",
+				"ready	$(document).ready"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"slide",
+				"slideUp	.slideUp()"
+			],
+			[
+				"backgorund",
+				"background-color"
+			],
+			[
+				"item",
+				"itemTPrice"
+			],
+			[
+				"itemT",
+				"itemTitle"
+			],
+			[
+				"app",
+				"append	.append"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"fl",
+				"flyToCart"
+			],
+			[
+				"hide",
+				"hide_preloader"
+			],
+			[
+				"carour",
+				"carouFredSel"
+			],
+			[
+				"nth",
+				"nth-child"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"read",
+				"ready	jQuery(document).ready"
+			],
+			[
+				"the",
+				"thecarousel"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"js",
+				"jsProductTabContentItem"
+			],
+			[
+				"remvoe",
+				"removeClass	.removeClass"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"ap",
+				"append	.append"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"Se",
+				"SELECTVALUE"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"sele",
+				"SELECT"
+			],
+			[
+				"SELE",
+				"SELECT"
+			],
+			[
+				"se",
+				"SELECT"
+			],
+			[
+				"th",
+				"theselect"
+			],
+			[
+				"myi",
+				"myfiltr"
+			],
+			[
+				"cu",
+				"customSelect"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"sub",
+				"submit	submit"
+			],
+			[
+				"select",
+				"selected"
+			],
+			[
+				"optio",
+				"optionValue"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"mysl",
+				"myselect__current"
+			],
+			[
+				"fade",
+				"fadeToggle	.fadeToggle()"
+			],
+			[
+				"my",
+				"myfiltrvalue"
+			],
+			[
+				"appen",
+				"appendTo	.appendTo()"
+			],
+			[
+				"myfiltr",
+				"myfiltrvalue"
+			],
+			[
+				"html",
+				"html	.html"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comi",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"che",
+				"Git: Change Branch"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"je",
+				"Set Syntax: HTML (Jekyll)"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Jekyll)"
+			],
+			[
+				"comit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"scss",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comi",
+				"Git: Commit"
+			],
+			[
+				"reit",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"jek",
+				"Set Syntax: HTML (Jekyll)"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reo",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"git comit",
+				"Git: Commit"
+			],
+			[
+				"pusuh",
+				"Permute Lines: Shuffle"
+			],
+			[
+				"cmit",
+				"Git: Commit"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"scs",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"liqui",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"liq",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"como",
+				"Git: Commit history"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			" git config --global push.default simple",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/sarhov/Dropbox/Projects/ins__vass/README.md",
+		"/C/Users/sarhov/Dropbox/Projects/ins__vass/.gitignore",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/layouts.layout.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/sass/screen.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/media/functions.js",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/layouts.checkout.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/.insup",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/sass/_mixins.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/sass/custom_checkout.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/media/custom_checkout.css",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/sass/_common.scss",
+		"/C/Users/sarhov/Dropbox/insales/snippets/fast-call-alt.html",
+		"/C/Users/sarhov/Dropbox/insales/snippets/mod_fast_call",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/page_404.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/article.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/blog.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/index.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/compass_insup_blank/sass/screen.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/compass_insup_blank/shop/.insup",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/compass_insup_blank/shop/insup",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/log/insup.log",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/collection.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/config.rb",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/snippets/product-block.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/product.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/media/screen.css",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/snippets/carousel.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/snippets/carousel_cart.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/sass/_slider.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/snippets/breadcrumbs.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/media/animate.css",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/media/common.js",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/page.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/cart.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/snippets/carousel_product.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/.sass-cache/95474162d174c7ad9c7d39665c47c3611ff111b1/_deprecated-support.scssc",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/.sass-cache/dedb463fe64f9c4f6bb518545f700b88f49da69f/_bullets.scssc",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/.sass-cache/dedb463fe64f9c4f6bb518545f700b88f49da69f/_horizontal-list.scssc",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/config/settings.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ray/config.rb",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ray/sass/screen.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/media/common_ru.js",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/templates/search.liquid",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/_layouts/default.html",
+		"/C/Users/sarhov/Desktop/pagination.liquid",
+		"/C/Users/sarhov/Desktop/c_filter.liquid",
+		"/C/Users/sarhov/Desktop/collections_block.liquid",
+		"/C/Users/sarhov/Desktop/collection.liquid",
+		"/C/Users/sarhov/Dropbox/others/insales-liquid-doc.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/shop/media/banners-3.jpg",
+		"/C/Users/sarhov/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/ins_vaas.sublime-project",
+		"/C/Users/sarhov/Dropbox/sublime_projects/ins_vaas.sublime-project",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/ins__vass/.sass-cache/44d4bad900e0223459162bc0f511c5d840b4dc47/_general.scssc",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/_site/css/test.css",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/css/test.css",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/sass/_common.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/sass/screen.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/css/screen.css",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/sass/_slider.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/js/functions.js",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/index.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/_includes/carousel.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/.sass-cache/cb73eda976527334ef5109e4612aafa51a56a499/_appearance.scssc",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/collection.html",
+		"/C/Users/sarhov/Dropbox/Jquery plugins/custom_select/custom_select.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/sass/_mixins.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/_config.yml",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/_includes/product-block.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/product.html",
+		"/C/Users/sarhov/Desktop/shop/.insup",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/sass/_editor.scss",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/_includes/breadcrumbs.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/cart.html",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/.sass-cache/cb73eda976527334ef5109e4612aafa51a56a499/_background-origin.scssc",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/.sass-cache/54f9fd8dfee417ec82cb287298f32ed0e919eff0/_border-radius.scssc",
+		"/C/Users/sarhov/Cloud@Mail.Ru/Projects/vaas/.gitignore",
+		"/C/Users/sarhov/Saved Games/vass.sublime-project",
+		"/C/Users/sarhov/Dropbox/Freelance/websites/vaas/sass/_common.scss",
+		"/C/Users/sarhov/Desktop/index.html",
+		"/C/Users/sarhov/Dropbox/Freelance/websites/vaas/collection.html",
+		"/C/Users/sarhov/Dropbox/Freelance/websites/vaas/cart.html"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#registered_client",
+			"capitalize",
+			"how",
+			"max-width: ",
+			"max-width: 60%;",
+			"max-width:60%",
+			".slide",
+			".slide img",
+			"slide",
+			"bstars",
+			"product-buy-actions__buying_button",
+			"jsAddToCart",
+			"select",
+			"show",
+			"before",
+			"ajax",
+			"initAjaxAddToCartButton",
+			"addOrderItem",
+			"initAjaxAddToCartButton",
+			"&gt;",
+			"350pc",
+			"images",
+			"transform",
+			"0.3",
+			"nav",
+			"js-toList",
+			"product-block__products",
+			"31",
+			"option",
+			">\n",
+			"option>\n						<option",
+			"option>\n						<",
+			"option>\n						",
+			">\n",
+			";\n",
+			".products__item:hover .carousel-content__item_buyzone_compare",
+			".products__item",
+			".products__item ",
+			"  ",
+			"header",
+			"section",
+			"div",
+			"fieldset__line_lable",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "sof.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"functio",
+				"shop\\media\\functions.js"
+			],
+			[
+				"cus",
+				"sass\\custom_checkout.scss"
+			],
+			[
+				"la",
+				"shop\\templates\\layouts.layout.liquid"
+			],
+			[
+				"mixi",
+				"sass\\_mixins.scss"
+			],
+			[
+				"coll",
+				"shop\\templates\\collection.liquid"
+			],
+			[
+				"lay",
+				"shop\\templates\\layouts.layout.liquid"
+			],
+			[
+				"func",
+				"shop\\media\\functions.js"
+			],
+			[
+				"functi",
+				"shop\\media\\functions.js"
+			],
+			[
+				"lat",
+				"shop\\templates\\layouts.layout.liquid"
+			],
+			[
+				"slide",
+				"sass\\_slider.scss"
+			],
+			[
+				"funt",
+				"shop\\media\\functions.js"
+			],
+			[
+				"fun",
+				"shop\\media\\functions.js"
+			],
+			[
+				"prod",
+				"shop\\snippets\\product-block.liquid"
+			],
+			[
+				"mix",
+				"sass\\_mixins.scss"
+			],
+			[
+				"col",
+				"shop\\templates\\collection.liquid"
+			],
+			[
+				"car",
+				"shop\\snippets\\carousel.liquid"
+			],
+			[
+				"mixin",
+				"sass\\_mixins.scss"
+			],
+			[
+				"screen",
+				"shop\\media\\screen.css"
+			],
+			[
+				"prd",
+				"product.html"
+			],
+			[
+				"funtion",
+				"js\\functions.js"
+			],
+			[
+				"scr",
+				"sass\\screen.scss"
+			],
+			[
+				"def",
+				"_layouts\\default.html"
+			],
+			[
+				"ine",
+				"index.html"
+			],
+			[
+				"fn",
+				"js\\functions.js"
+			],
+			[
+				"bre",
+				"_includes\\breadcrumbs.html"
+			],
+			[
+				"pro",
+				"product.html"
+			],
+			[
+				"com",
+				"sass\\_common.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\sof.sublime-workspace"
+			],
+			[
+				"ra",
+				"C:\\Users\\sarhov\\Saved Games\\ray.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 319.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
