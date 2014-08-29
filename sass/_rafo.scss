@@ -241,6 +241,7 @@ body {
 				font-size: 14px;
 			}
 			>p{
+				width: 190px;
 				color: #413D3B;
 				font-size: 13px;
 				font-style: italic;
@@ -426,4 +427,11 @@ body {
 	margin: 20px auto 0 auto;
 	color: white;
 	text-transform: uppercase;
+}
+ol{
+	list-style: decimal inside none;
+	font-size: 16px;
+	font-weight: normal;
+	color: #858383;
+	line-height: 22px;
 }
