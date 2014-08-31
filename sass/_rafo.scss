@@ -444,11 +444,12 @@ ol{
     	height: 100%;
     }
     #sof_page_holder{
-    	margin-top: 260px;
+    	margin-top: 240px;
     }
     .sof_page {
     	background-image: url("../img/print.png");
     	background-color: white;
-
+    	background-size: 960px;
+    	background-position: 50% 0;
     }
 }

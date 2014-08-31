@@ -619,13 +619,15 @@ ol {
 
   /* line 446, ../sass/_rafo.scss */
   #sof_page_holder {
-    margin-top: 260px;
+    margin-top: 240px;
   }
 
   /* line 449, ../sass/_rafo.scss */
   .sof_page {
     background-image: url("../img/print.png");
     background-color: white;
+    background-size: 960px;
+    background-position: 50% 0;
   }
 }
 /* line 1, ../sass/_common.scss */
