@@ -3,7 +3,7 @@ title: site title
 email: your-email@domain.com
 description: "site description"
 encoding: utf-8
-baseurl: "/science-of-future"
+baseurl: "/sof"
 url: "/"
 
 # Build settings

@@ -435,3 +435,20 @@ ol{
 	color: #858383;
 	line-height: 22px;
 }
+
+@media print{
+    #sof_page_menu, #top_bar, .print {
+       	display: none;
+    }
+    #sof_page_container, #sof_page_holder, #wrapper, #report_holder, #report{
+    	height: 100%;
+    }
+    #sof_page_holder{
+    	margin-top: 260px;
+    }
+    .sof_page {
+    	background-image: url("../img/print.png");
+    	background-color: white;
+
+    }
+}
