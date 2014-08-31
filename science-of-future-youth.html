@@ -1,20 +1,20 @@
 ---
 layout: no-index-youth
 title: science-of-future-youth
-page: author
+page: author-youth
 ---
 
 <ul id="authors_list">
-		{% for report in site.reports %}
+	{% for report_youth in site.reports_youth %}
 
 	<li>
 		<div class="author_block author_block_youth">
-			<a href="{{site.baseurl}}{{report.url}}">• {{report.speaker}}</a>
-			<p>{{report.position}}</p>
+			<a href="{{site.baseurl}}{{report_youth.url}}">• {{report_youth.speaker}}</a>
+			<p>{{report_youth.position}}</p>
 		</div>
 		<div class="report_title">
-			<p class="report_section">{{report.section}}</p>
-			<span>«{{report.title}}»</span>
+			<p class="report_section">{{report_youth.section}}</p>
+			<span>«{{report_youth.title}}»</span>
 		</div>
 	</li>
 

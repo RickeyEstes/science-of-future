@@ -623,10 +623,18 @@ ol {
   }
 
   /* line 449, ../sass/_rafo.scss */
-  .sof_page {
+  body > .sof_page {
     background-image: url("../img/print.png");
     background-color: white;
-    background-size: 960px;
+    background-size: 1024px;
+    background-position: 50% 0;
+  }
+
+  /* line 455, ../sass/_rafo.scss */
+  body > .sof_page_youth {
+    background-image: url("../img/print_youth.png") !important;
+    background-color: white;
+    background-size: 1024px;
     background-position: 50% 0;
   }
 }

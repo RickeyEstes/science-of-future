@@ -1,21 +1,21 @@
 ---
 layout: no-index-youth
-page: author
+page: author-youth
 --- 
 
 <div id="report_holder">
-	<div id="report_info">
+	<div id="report_info" class="report_info_youth">
 		<div class="section">SECTION: <span>{{page.section}}</span></div>
 		<div>SCIENTIFIC ORGANIZATION:<br><span>{{page.organization}}</span></div>
 		<div>REPORT FORM: <br><span>«{{page.form}} report»</span></div>
 		<div>AUTHOR(S)<br> OF THE REPORT: <br><span>{% for author in page.authors %} {{author}}{% unless forloop.last %}, {% endunless %}{% endfor %}</span></div>
 	</div>
 	<div id="report">
-		<div id="report_brief">
+		<div id="report_brief" class="report_brief_youth">
 			<div>SPEAKER:<br><span>{{page.speaker}}</span></div>
 			<div>REPORT TITLE:<br><span>{{page.title}}</span></div>
 		</div>
-		<div id="talking_points">
+		<div id="talking_points" class="talking_points_youth">
 			TALKING POINTS:<br>
 			{{page.content}}
 		</div>
