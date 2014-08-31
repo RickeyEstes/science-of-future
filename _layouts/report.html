@@ -7,7 +7,7 @@ page: author
 	<div id="report_info">
 		<div class="section">SECTION: <span>{{page.section}}</span></div>
 		<div>SCIENTIFIC ORGANIZATION:<br><span>{{page.organization}}</span></div>
-		<div>REPORT FORM: <br><span>«Poster report»</span></div>
+		<div>REPORT FORM: <br><span>«{{page.form}} report»</span></div>
 		<div>AUTHOR(S)<br> OF THE REPORT: <br><span>{% for author in page.authors %} {{author}}{% unless forloop.last %}, {% endunless %}{% endfor %}</span></div>
 	</div>
 	<div id="report">
