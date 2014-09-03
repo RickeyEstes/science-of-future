@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Domain-Specific Support for Development of Composite Application with BigData Analytics Tasks</title>
+    <meta name="viewport" content="width=device-width">
+   
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/screen.css">
+</head>
+<body class="  ">
+	<div id="wrapper" class="sof_page container">
+		<div id="sof_page_holder">
+			<div id="sof_page_menu" class="menu">
+				<ul class="container">
+					<li class="sof_menu_logo "><a href="/"></a></li>
+					<li class="menu_item  menu_selected     menu_border"><a href="/science-of-future">Author</a></li>
+					<li class="menu_item  menu_border"><a href="/science-of-future-section">Section</a></li>
+					<li class="menu_item    menu_border last_menu_item"><a href="/science-of-future-so">Scientific<br>Organization</a></li>
+				</ul>
+			</div>
+			<div id="sof_page_container" class="container">
+				<div id="top_bar">
+					<div id="prev_page"><a href="#" onclick="window.history.go(-1); return false;">PREVIOUS PAGE</a></div>
+					<div id="search">
+						<input type="text">
+						<button type="submit"></button>
+					</div>
+				</div>
+
+
+
+<div id="report_holder">
+	<div id="report_info">
+		<div class="section">SECTION: <span>Computer Technologies</span></div>
+		<div>SCIENTIFIC ORGANIZATION:<br><span>Saint-Petersburg National Research University of Information Technologies, Mechanics and Optics</span></div>
+		<div>REPORT FORM: <br><span>«Poster report»</span></div>
+		<div>AUTHOR(S)<br> OF THE REPORT: <br><span> Sergey V. Kovalchuk,  Artem V. Zakharchuk,  Denis A. Nasonov</span></div>
+	</div>
+	<div id="report">
+		<div id="report_brief">
+			<div>SPEAKER:<br><span>Sergey V. Kovalchuk</span></div>
+			<div>REPORT TITLE:<br><span>Domain-Specific Support for Development of Composite Application with BigData Analytics Tasks</span></div>
+		</div>
+		<div id="talking_points">
+			TALKING POINTS:<br>
+			<p>Contemporary e-Science tasks often require data-intensive applications to be incorporated as a major part of the composite solution [1]. A huge amount of various data are available for scientific analysis, information retrieval and knowledge discovery. The growth of volume and variety of available data together with processing performance requirements causes the BigData area [2] to emerge. The BigData area collects a set of practices, methods, technologies which are aimed to better management of the large data arrays. Nevertheless the BigData still has a lot of issues to be solved. One of the questions currently opened within the area of BigData is
+
+ high-level user-friendly task definition. Within the e-Science area the common approach for description of the complex domain-specific tasks is workflow (WF). Still the WF concepts usually exploit the data-to-code (D2C) approach (data is transferred to the executable services) when the BigData solutions are usually based on the code-to-data (C2D) concept (executable modules are transferred to the data sites). The differences in the approach make it difficult to integrate seamlessly the BigData solutions into the WF management systems (WFMS): the existing solutions usually have a strong conceptual border between these two approaches. <br>
+Within the presented work we try to develop a solution which enables the end-user to define high-level tasks which can combine seamlessly both D2C and C2D approaches by the use of knowledge-based support for simulation-based scientific exploration [3]. As a core part of the solution we developed dynamic domain-specific language (DSL) which can adapt to the particular problem domain and can be integrated into the cloud computing environment to support the BigData tasks definition.<br>
+Considering the typical e-Science tasks and BigData requirements appeared within such tasks, the following features can be defined for the developed solution:<br><br>
+	• High-level semantic description of available data which allows integrating various data sources and providing the user with capability to work with domain-specific semantics. <br><br>
+	• The semantic description should allow linking the data with the structure of system being analyzed and thus to support the system-level science investigation. <br><br>
+	• Usually the e-Science tasks are solved within Simulation-Driven Approach (SDA). The data processing should be integrated with the simulation procedures a) by being incorporated into the high-level composite application; b) by performing simulation procedures in C2D way within the data storage. <br><br>
+	• Domain-specific languages (DSL) provide a powerful toolbox for high-level interaction with the user, but usually they are developed for single predefined problem.<br><br>
+	• Considering the e-Science area a huge variety of domains and tasks can be identified. Thus the developed DSL should be dynamically adoptable to the particular problem domain and task.<br><br>
+
+The proposed solution is based on the idea of knowledge-based expressive toolbox [4] where the hierarchy of languages (with textual or graphical notation) is defined by the set of knowledge from different problem domains. The basic hierarchy of expressive tools include five levels: L1 – services description; L2 – services composition (WF); L3 – simulation objects description; L4 – objects composition (description of investigated system); L5 – high-level task definition.<br>
+To extend this architecture the parallel hierarchy was developed which describe the C2D part of composite application built during high-level task interpretation. To implement this hierarchy the dynamic DSL is developed which serve to describe the high-level BigData tasks. The C2D part of the composite application is interconnected with the D2C part in several ways within the mentioned hierarchical levels: a) shared system’s structure is used to generate general-purpose WF and to support data analysis; b) dynamic dataset which is updated during simulation and data analysis is sharable enabling to interconnect the parts automatically; c) distributed data storage can be used to transfer small datasets to the computational services in D2C way; d) the cloud management system can control the deploy of portable software to the data storage nodes to support local runs for the simulation purposes.
+The developing dynamic DSL provide a flexible expressive tool for high-level definition of data analysis tasks. The knowledge-based technologies used to process the DSL structure enables to interpret the terms and structures defined by the semantics of particular problem domain. The DSL is integrated with existing cloud computing environment CLAVIRE (http://clavire.ru/) and extends the set of tools for development of composite applications.<br>
+Acknowledgements. The research work was partly financially supported by Government of Russian Federation, Grant 074-U01. Data management facilities were developed within the project “Big data management for computationally intensive applications” (project #14613).<br><br>
+
+References<br><br>
+[1] T. Hey, S. Tansley, K. Tolle The fourth paradigm: data-intensive scientific discovery, 2009, p. 252. <br>
+[2] M.D. Assuncao [et al.] Big Data Computing and Clouds: Challenges, Solutions, and Future Directions // arXiv preprint, arXiv:1312.4722, 2013. <br>
+[3] P.A. Smirnov, S.V. Kovalchuk, A.V. Boukhanovsky Knowledge-Based Support for Complex Systems Exploration in Distributed Problem Solving Environments // Communications in Computer and Information Science. Knowledge Engineering and the Semantic Web, Vol. 394, 2013, pp. 147-161.<br>
+[4] S.V. Kovalchuk [et al.] Knowledge-based Expressive Technologies within Cloud Computing Environments // Advances in Intelligent Systems and Computing. Practical Applications of Intelligent Systems, Vol. 279, 2014, pp. 1-12.</p>
+		</div>
+		<div class="print" onClick="window.print()"></div>
+	</div>
+</div>
+
+
+
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.8.3.min.js"></script>
+  	<script src="js/functions."></script>
+</body>
+</html> 

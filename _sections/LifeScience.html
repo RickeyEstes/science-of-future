@@ -1,0 +1,27 @@
+---
+layout: no-index
+title: Life Science
+page: form
+---
+
+<div id="section_header">SECTION: {{page.title}}</div>
+
+
+<ul id="authors_list">
+
+	{% for Poster in site.reports %}
+
+	<li>
+		<div class="author_block">
+			<a href="{{site.baseurl}}{{Poster.url}}">• {{Poster.speaker}}</a>
+			<p>{{Poster.position}}</p>
+		</div>
+		<div class="report_title">
+			<p class="report_section">{{Poster.section}}</p>
+			<span>«{{Poster.title}}»</span>
+		</div>
+	</li>
+
+	{% endfor %}
+	
+</ul>
