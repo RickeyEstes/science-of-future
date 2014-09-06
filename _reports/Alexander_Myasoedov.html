@@ -1,0 +1,15 @@
+---
+layout: report
+page: author
+form: Poster
+speaker: Alexander Myasoedov
+position: 
+title: SAR wind retrieval. from Singlecore to Multicore/GPU computing
+section: Earth Science
+organization: Russian State Hydrometeorological University
+authors: [ Alexander Myasoedov, Anna Monzikova ]
+---
+
+<p>The large spatial coverage and high resolution of spaceborne synthetic aperture radars (SAR) offers a unique opportunity to derive mesoscale wind fields over the ocean surface, providing high resolution wind fields near the shore. On the other hand, due to the large size of SAR images their processing might be a headache when dealing with operational tasks or doing long-period statistical analysis.</p>
+<p>The large spatial coverage and high resolution of spaceborne synthetic aperture radars (SAR) offers a unique opportunity to derive mesoscale wind fields over the ocean surface, providing high resolution wind fields near the shore. On the other hand, due to the large size of SAR images their processing might be a headache when dealing with operational tasks or doing long-period statistical analysis.</p>
+<p>In this study we implement different SAR wind speed retrieval algorithms (e.g. CMOD4, CMOD5) for Singlecore and Multicore systems, including GPUs. For this purpose both serial and parallelized versions of CMOD algorithms were written in Matlab, Python, CPython and PyOpenCL. We apply these algorithms to an Envisat ASAR image, compare the results received with different versions of the algorithms executed on both Intel CPU and a Tesla GPU. As a result of our experiments we not only show the up to 400 times speedup of GPU comparing to CPU but also try to give some advises on how much time we have spent and efforts were made for writing the same algorithm using different programming languages. We hope that our experience will help other scientist to achieve all the goodness from the GPU/Multicore computing.</p>
