@@ -1,0 +1,15 @@
+---
+layout: report
+page: author
+form: Poster
+speaker: Kudryavtseva L.N.
+position: phd
+title: Review of structured mesh generator with coarse block structure for winged bodies
+section: Mathematics
+organization: Dorodnicyn Computing Centre of the Russian Academy of Sciences, Moscow Institute of Physics and Technology (State University)
+authors: [ Garanzha V.A., Kudryavtseva L.N. ]
+---
+
+<p>Construction of almost regular 3d meshes for high-speed viscous flow simulations is quite hard technological problem. The most accurate simulation results are attained using curvlinear block-structured meshes. Modern commercial meshers allow to construct meshes with number of blocks counting in hundreds and thousands. This procedure is very time consuming and requires lot of manual work.
+Reducing number of mesh blocks using advanced variational methods allows to increase automation in meshing procedure and in some practical case allows fully automated mesh generation. The class of bodies we are interested in are elongated bodies with wings and rudders.</p>
+<p>The input data include geometrical model in STEP format and parameters defining approximate decomposition of domain into blocks. Several types of meshes for blocks are considered: algebraic, quasi-2D, where in each cross-section mesh is constructed using variational method, and general blocks where 3D variational method is used for meshing. Variational method guarantees that curvilinear meshes are orthogonal near boundary. Mesh near sharp edges and high curvature zones can be constructed using special adaptation procedure which allows to resolve high curvature regions avoiding excessive mesh cell skewing. This approach allows mesh cells to "flow" across sharp edges which is in general undesirable feature, but solution accuracy on such meshes remains acceptable. Taking into account that characteristic meshing time for quite complicated bodies is hours, and most favorable properties of regular meshes, including smoothness, regularity, orthogonality near boundary are retained one can claim that meshing technology described above is competitive.</p>

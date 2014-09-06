@@ -1,0 +1,17 @@
+---
+layout: report
+page: author
+form: Oral
+speaker: Peter Tankov
+position: PhD
+title: Approximate Indifference Pricing in Exponential Lévy Models.
+section: Mathematics
+organization: National Research University Higher School of Economics и Университет Paris-Diderot, Франция
+authors: [ Clément Ménassé and Peter Tankov (Петр Танков) ]
+---
+
+<p>The celebrated Black-Scholes model, which uses the geometric Brownian motion to describe the dynamics of the assets, is a cornerstone of the modern mathematical finance. However, it fails to reproduce significant features of empirically observed stock returns and option prices. For this reason, various extensions of the Black-Scholes framework have been developed in the literature. One popular approach is to replace the geometric Brownian motion with the exponential of a discontinuous process such as a Lévy process.</p>
+<p>Discontinuous non-Gaussian Lévy processes allow to quantify the market risk much more precisely, but the option pricing problem for such processes becomes more involved. Exponential Lévy models typically correspond to incomplete financial markets, meaning that the agents will not necessarily agree on a unique price for a derivative product. Instead, the price at which a market agent will accept to buy or sell a given derivative will depend on his / her risk aversion and preferences. A commonly used pricing paradigm in this context is the so called indifference pricing approach, which states that a fair price for a given transaction and a given market agent is the one at which the agent is indifferent between entering or not entering the transaction, given his / her utility function.</p>
+<p>Computing the indifference price of even a simple European option in an exponential Lévy model boils down to solving a non-linear integro-differential equation, which is a tough numerical problem. This makes this approach unsuitable in a production environment of a bank, where prices must usually be evaluated in real time.</p>
+<p>In this work we develop closed form approximations to indifference prices in exponential Lévy models by treating the exponential Lévy model as a perturbation of the Black-Scholes model, extending a methodology introduced in a recent paper for linear functionals of Lévy processes (Cerny, Ales, Stephan Denkl, and Jan Kallsen, Hedging in Lévy models and the time step equivalent of jumps, arXiv:1309.7833, 2013). Our method works well when the Lévy process in quesion is ``not too far'' from the Brownian motion, and represents the indifference price as the linear combination of the Black-Scholes price and correction terms which depend on tractable characteristics of the underlying Lévy process, such as skewness and kurtosis.</p>
+<p>An important by-product of our study is a simple explicit formula for the spread between the buyer's and the seller's indifference price. On one hand, this formula allows to quantify, how sensitive a given product is to the market incompleteness, or in other words, to the residual risk which cannot be hedged away with a trading strategy involving only the underlying asset. On the other hand, it provides an explanation for the bid-ask forks observed empirically in option markets.</p>

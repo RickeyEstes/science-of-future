@@ -1,0 +1,69 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Self-organization Delaunay mesh generator in nonregular implicit domains</title>
+    <meta name="viewport" content="width=device-width">
+   
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/screen.css">
+</head>
+<body class="  ">
+	<div id="wrapper" class="sof_page container">
+		<div id="sof_page_holder">
+			<div id="sof_page_menu" class="menu">
+				<ul class="container">
+					<li class="sof_menu_logo "><a href="/"></a></li>
+					<li class="menu_item  menu_selected     menu_border"><a href="/science-of-future">Author</a></li>
+					<li class="menu_item  menu_border"><a href="/science-of-future-section">Section</a></li>
+					<li class="menu_item    menu_border last_menu_item"><a href="/science-of-future-so">Scientific<br>Organization</a></li>
+				</ul>
+			</div>
+			<div id="sof_page_container" class="container">
+				<div id="top_bar">
+					<div id="prev_page"><a href="#" onclick="window.history.go(-1); return false;">PREVIOUS PAGE</a></div>
+					<div id="search">
+						<input type="text">
+						<button type="submit"></button>
+					</div>
+				</div>
+
+
+
+<div id="report_holder">
+	<div id="report_info">
+		<div class="section">SECTION: <span>Mathematics</span></div>
+		<div>SCIENTIFIC ORGANIZATION:<br><span>Dorodnicyn Computing Centre of the Russian Academy of Sciences, Moscow Institute of Physics and Technology (State University)</span></div>
+		<div>REPORT FORM: <br><span>«Poster report»</span></div>
+		<div>AUTHOR(S)<br> OF THE REPORT: <br><span> Belokrys-Fedotov A.I.,  Kudryavtseva L.N.</span></div>
+	</div>
+	<div id="report">
+		<div id="report_brief">
+			<div>SPEAKER:<br><span>Belokrys-Fedotov A.I.</span></div>
+			<div>REPORT TITLE:<br><span>Self-organization Delaunay mesh generator in nonregular implicit domains</span></div>
+		</div>
+		<div id="talking_points">
+			TALKING POINTS:<br>
+			<p>Strang and Persson [1] suggested simple self-organization Delaunay meshing algorithm in implicit domains based on signed distance function which measures distance from domain boundary. It is based on application of nonlinear elastic repulsive forces along current Delaunay edges acting like nonlinear struts. Projection of vertices which go out outside domain back to its boundary serves as a barrier against this repulsion.</p>
+<p>Behaviour of the algorithm resembles filling of a volume by expanding industrial foam. Computational kernel of this algorithm is fully contained in one page of Matlab code.</p>
+<p>In Belousova, Garanzha [2] it was suggested modification of this algorithm which is based on general signed implicit function modelling domain bounadry as zero isosurface and which does not require computation of costly precise distance function. Remarkable property of self-organization algorithm is topological regularity of resulting mesh. Connectivity of triangular surface mesh which is constructed simultaneously with tetrahedral one is very close to regular. In [3] Garanzha, Kudryavtseva suggested to combine self-organization algorithm with special edge sharpening technique which gradually orient mesh faces and edges aligning them which sharp edges and conical points on implicit boundary. Additional elastic forces were added in order to prevent appearance of slivers (flat teterahedra). Resulting algorithm was found to be quite powerful tool for general implicit domains which works in a black box mode. Unfortunately indiscriminate application of sharpening forces may lead to larger degree of topological irregularity of resulting mesh. In order to resolve this problem we suggest adaptive version of sharpening forces based on computation of discrete Laplace-Beltrami operator due to Floater [4] on approximate boundary of implicit domain. It provides threshold for robust application of sharpening. This modification of algorithm allowed to retain high quality edge recovery while restoring topological regularity of resulting mesh. Newly developed C/C++ -version of self-organization algorithm was found to be much faster compared to Matlab version from [3] which allowed sharp increase of the target mesh size and complexity of domains.</p>
+<p>1) P.-O. Persson, G. Strang, A Simple Mesh Generator in MATLAB. SIAM Review, Vol. 46 (2), pp. 329-345, June 2004.</p>
+<p>2) L.N. Belousova, V.A. Garanzha, Compare global optimization algorithm of computational grids. Computational Mathematics: Proceedings of the XIV Baikal International School-Seminar "Optimization Methods and their Applications", Irkutsk, Baikal, July 2-8, 2008. Volume 3: Irkutsk, ESI RAN.-2008.-183 p.</p>
+<p>3) V.A. Garanzha, L.N. Kudryavtseva, Generation of three-dimensional delaunay meshes from weakly structured and inconsistent data. Computational Mathematics and Mathematical Physics 52 (3), 427-447</p>
+<p>4) Floater M.S., Hormann K. Surface parameterization: a tutorial and survey. In: Advances in multiresolution for geometric modelling. Berlin: Springer; 2005. p. 157–86.</p>
+		</div>
+		<div class="print" onClick="window.print()"></div>
+	</div>
+</div>
+
+
+
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.8.3.min.js"></script>
+  	<script src="js/functions."></script>
+</body>
+</html> 
