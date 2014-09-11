@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Large Scale Simulations of Stokes Flow Using FMM/GPU Accelerated Boundary Element Method.</title>
+    <meta name="viewport" content="width=device-width">
+   
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/screen.css">
+</head>
+<body class="  ">
+	<div id="wrapper" class="sof_page container">
+		<div id="sof_page_holder">
+			<div id="sof_page_menu" class="menu">
+				<ul class="container">
+					<li class="sof_menu_logo "><a href="/"></a></li>
+					<li class="menu_item  menu_selected     menu_border"><a href="/science-of-future">Author</a></li>
+					<li class="menu_item  menu_border"><a href="/science-of-future-section">Section</a></li>
+					<li class="menu_item    menu_border last_menu_item"><a href="/science-of-future-so">Scientific<br>Organization</a></li>
+				</ul>
+			</div>
+			<div id="sof_page_container" class="container">
+				<div id="top_bar">
+					<div id="prev_page"><a href="#" onclick="window.history.go(-1); return false;">PREVIOUS PAGE</a></div>
+					<div id="search">
+						<input type="text">
+						<button type="submit"></button>
+					</div>
+				</div>
+
+
+
+<div id="report_holder">
+	<div id="report_info">
+		<div class="section">SECTION: <span>Mechanics and engineering. Energy</span></div>
+		<div>SCIENTIFIC ORGANIZATION:<br><span>Center for Micro and Nanoscale Dynamics of Disperesed Systems, Bashkir State University</span></div>
+		<div>REPORT FORM: <br><span>«Oral report»</span></div>
+		<div>AUTHOR(S)<br> OF THE REPORT: <br><span> Y.A. Itkulova,  O.A. Abramova,  N.A. Gumerov,  and I.S. Akhatov</span></div>
+	</div>
+	<div id="report">
+		<div id="report_brief">
+			<div>SPEAKER:<br><span>Itkulova Yulia</span></div>
+			<div>REPORT TITLE:<br><span>Large Scale Simulations of Stokes Flow Using FMM/GPU Accelerated Boundary Element Method.</span></div>
+		</div>
+		<div id="talking_points">
+			TALKING POINTS:<br>
+			<p>The motion of dispersed systems in microchannels of different shape is needed for a variety of industrial applications, such as enhanced oil recovery, advanced material processing, pharmaceutical manufacturing, food processing and biotechnology. Emulsions bring a striking example of such dispersed systems. For example, in oil recovery studies of liquid droplets motion through porous media are important. Another example comes from biophysics where accurate prediction of the red blood cell motion through the narrow branches of the capillary network in the microcirculation or through the bronchial airways is needed.</p>
+<p>The main goal of this work is development of efficient computational methods and tools for understanding the complex behavior of three dimensional two-phase and one-phase Stokesian flows in different domains, for example, in arbitrary channels with complex geometry. Contemporary computational methods and powerful computer resources enable direct large scale microfluid dynamics simulations. In the presentstudy a mathematical model of a three-dimensional flow of a mixture of two Newtonian liquids of a droplet structure at low Reynolds numbers is considered. The computational approach is based on the boundary element method accelerated both via an advanced scalable algorithm, the fast multipole method (FMM), and via utilization of advanced hardware, particularly, heterogeneous computing architecture (multicore CPUs and graphics processors). Furthermore, flexible version of the general minimal residual method (fGMRES) solver is developed. The main advantage of the flexible version is the possibility of using of a non-fixed matrix as a preconditioner. A low-accuracy FMM is used in the inner fGMRES loop as a preconditioner, while the outer iteration utilized the more accurate FMM.</p>
+<p>Example computations are conducted for dynamics of many deformable drops of different sizes in microchannels and in shear flow. The obtained results and accuracy/performance of the method are discussed. The developed approach enabled direct simulations of systems of tens of thousands of deformable droplets in an unbounded domain. Note, that all computations were carried out on a personal workstation and one time step for such large system took only 3 minutes. Then we focused on the simulation of three-dimensional emulsion flows in channels of arbitrary cross-section with tens of thousands triangular elements discretizing the boundary. Several demonstration computations were conducted for the dilute emulsions in microchannels and the results were compared with experimental data The features of the formation of recirculating eddies in the widest part of the microchannels with variable circular cross-section is studied. The developed approach can be used for solution of a wide range of problems related to emulsion flows in micro- and nanoscales. As a future work we also consider extension of the physical model and appropriate algorithmic modifications which take into account effects of the close droplet interaction</p>
+<p>This study is supported by Grant of Ministry of Education and Science of the Russian Federation (11.G34.31.0040), and Fantalgo, LLC (Maryland, USA).</p>
+		</div>
+		<div class="print" onClick="window.print()"></div>
+	</div>
+</div>
+
+
+
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.8.3.min.js"></script>
+  	<script src="js/functions."></script>
+</body>
+</html> 

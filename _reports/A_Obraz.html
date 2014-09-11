@@ -1,0 +1,27 @@
+---
+layout: report
+page: author
+form: Poster
+speaker: A. Obraz
+position: 
+title: Computations of Laminar-Turbulent Transition Reynolds Numbers in Compressible Boundary Layers Using Stability Code HSFS
+section: Mechanics and engineering. Energy 
+organization: Moscow Institute of Physics and Technology (State University)
+authors: [ A. Obraz, A. Fedorov ]
+---
+
+<p>Laminar-turbulent transition on the body in supersonic and especially in hypersonic flows is critical for design of high-speed air vehicles. Transition dramatically affects the wall heat flux, skin friction and flight stability. The free stream turbulence level in natural flight scenario being usually small, the natural laminar-turbulent transition in the absence of separation and considerable wall roughness is due to the growth of initially small instability waves inside the boundary layer [1].</p>
+<p>Three dimensional boundary layers can be dominated by a variety of instabilities depending on flow conditions and location on the surface of the body. For considered herein boundary layers the major instabilities are: the first mode associated with Tollmien-Schlichting (TS) waves; the second mode that is dominant at hypersonic speeds; cross-flow vortices propagating in three-dimensional boundary layers with non-zero pressure gradient.</p>
+<p>To perform conceptual and preliminary design of high-speed vehicles, desktop predictive tools are needed to evaluate transition onset and predict parameters of the thermal protection system.</p>
+<p>Calculations in the present article are carried out with the use of transition prediction code HSFS(High Speed Flow Stability). The transition prediction core is mainly based on the so-called e-N method [2], considered to be the most developed tool to estimate the transition loci for practical engineering configurations. According to the semi-empirical basis of e-N method, the onset of transition is predicted at the point where instability amplitude reaches certain level amplification in comparison with the initial amplitude. To compute amplification rates one should know discrete spectrum instability wave characteristics, namely wavenumbers α,β and frequency ω.</p>
+<p>The initial estimates for local stability computations are computed using global eigenvalue stability solver similar to [3]. The precise search of distinct instability wave characteristics are performed within the assumption of locally parallel flow with orthogonalizationsolver[4]. Computations can be both carried out with spatial (α,β complex and ω real) or temporal (α,β real and ω complex) approaches.</p>
+<p>The coupling between the transition code and mean flow Navier-Stokes solvers is made via widely used CGNS format[5]. The code directly supports multiblock structured domains. The mean flow calculations of tested configurations discussed below are performed using the in-house Navier-Stokes solver HSFlow[6]. The output information from the stability code HSFS contains the transition onset line, which can directly be used to perform coupled RANS calculations, and boundary layer instability database.</p>
+<p>Transition calculations were performed for several configuration sets and briefly listed here. The first set of test cases encompasses supersonic flows past circular round cylinders at zero and non-zero angles of attack. Calculations are compared with flight data obtained on sharp cones and wind-tunnel experiments conducted at low noise level. Effects of wall cooling and angle of attack on the transition onset are considered. For cones at zero angle of attack the comparison of predicted transition Reynolds numbers with flight data is provided. At non-zero angles of attack calculations are compared with some low-noise wind tunnel experiments[7]. The second set of calculations was conducted for hypersonic flows past circular cones with local cooling/heating of the surface. The results of computations are compared with some numerical computations and wind tunnel experiments [8]. Among the other sets of configurations some results of stability computations on transonic swept wings and hypersonic ogival bodies are discussed.</p>
+<p>1. Mack, L.M. Boundary Layer Linear Stability Theory //AGARD Rep.  1984.  N.709.  PP.3/1-81</p>
+<p>2. Van Ingen, J.L. A Suggested Semi-empirical Method for the Calculation of the Boundary Layer Region. Report No. VTH17, Holland, 1956</p>
+<p>3. Malik, M.R. “Numerical methods for hypersonic boundary layer stability problems”//Journal of Computational Physics, vol.86, 376 – 413, 1990.</p>
+<p>4. Mack L.M. A numerical method for the prediction of high-speed boundary layer transition using linear theory // NASA-SP-347.-1975.-P.101-123</p>
+<p>5. "The CGNS System," D. Poirier, S. R. Allmaras, D. R. McCarthy, M. F. Smith, F. Y. Enomoto // AIAA Paper 98-3007.</p>
+<p>6. Egorov I .V. et al, Numerical computation of disturbances in a supersonic boundary layer, Izv. RAN, 2004, N6</p>
+<p>7. King R.A. Mach 3.5 Boundary-Layer Transition on a Cone at Angle of Attack// AIAA Paper. – 1991. - №91-1804</p>
+<p>8.TransHyberian project : Characterization of Wall Temperature Effect during Transition of Hypersonic flow over a Cone By Experiments And Numerical Simulations; https://www.transhyberian.eu </p>
