@@ -1,6 +1,8 @@
 $(document).ready(function() {
     
-    //--------------MENU HOVER-------------------
+    setTimeout(function(){$('.animation_holder').fadeOut(500);}, 6000);
+    
+    /*//--------------MENU HOVER-------------------
 
     var menu_elemtn = $('#sof_page_menu').find('a');
 
@@ -16,7 +18,7 @@ $(document).ready(function() {
     	_this.stop(true, true).animate({backgroundColor:'#911B4B', color: 'white'}, 200);
     } 
 
-    //--------------MENU HOVER-------------------
+    //--------------MENU HOVER-------------------*/
     
     function search(query) {
         $(".author_node").each(function() {

@@ -1,0 +1,26 @@
+@media print{
+    #sof_page_menu, #top_bar, .print {
+       	display: none;
+    }
+    #sof_page_container, #sof_page_holder, #wrapper, #report_holder, #report{
+    	height: 100%;
+    }
+    #sof_page_holder{
+    	margin-top: 240px;
+    }
+    body{
+        background-color: white;
+    }
+    body > .sof_page {
+    	background-image: url("../img/print.jpg");
+    	background-color: white;
+    	background-size: 1024px;
+    	background-position: 50% 0;
+    }
+    body > .sof_page_youth {
+    	background-image: url("../img/print_youth.jpg")!important;
+    	background-color: white;
+    	background-size: 1024px;
+    	background-position: 50% 0;
+    }
+}

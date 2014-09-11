@@ -77,7 +77,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   height: 100%;
   min-width: 1024px;
-  background: #E7E7E7;
+  background: #323232;
 }
 
 /* line 11, ../sass/_rafo.scss */
@@ -330,7 +330,7 @@ body {
   outline: 0;
 }
 /* line 207, ../sass/_rafo.scss */
-#search > div {
+#search > button {
   height: 30px;
   width: 30px;
   background-image: url("../img/2x/find.png");
@@ -608,33 +608,54 @@ ol {
   line-height: 22px;
 }
 
+/* line 440, ../sass/_rafo.scss */
+.animation_holder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 445, ../sass/_rafo.scss */
+.animation {
+  width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+  background-image: url(../img/animation.gif);
+  background-size: 100% 100%;
+}
+
 @media print {
-  /* line 442, ../sass/_rafo.scss */
+  /* line 453, ../sass/_rafo.scss */
   #sof_page_menu, #top_bar, .print {
     display: none;
   }
 
-  /* line 445, ../sass/_rafo.scss */
+  /* line 456, ../sass/_rafo.scss */
   #sof_page_container, #sof_page_holder, #wrapper, #report_holder, #report {
     height: 100%;
   }
 
-  /* line 448, ../sass/_rafo.scss */
+  /* line 459, ../sass/_rafo.scss */
   #sof_page_holder {
     margin-top: 240px;
   }
 
-  /* line 451, ../sass/_rafo.scss */
+  /* line 462, ../sass/_rafo.scss */
+  body {
+    background: white !important;
+  }
+
+  /* line 465, ../sass/_rafo.scss */
   body > .sof_page {
-    background-image: url("../img/print.png");
+    background-image: url("../img/print.jpg");
     background-color: white;
     background-size: 1024px;
     background-position: 50% 0;
   }
 
-  /* line 457, ../sass/_rafo.scss */
+  /* line 471, ../sass/_rafo.scss */
   body > .sof_page_youth {
-    background-image: url("../img/print_youth.png") !important;
+    background-image: url("../img/print_youth.jpg") !important;
     background-color: white;
     background-size: 1024px;
     background-position: 50% 0;
