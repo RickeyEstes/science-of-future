@@ -7,9 +7,9 @@ page: author-youth
 <ul id="authors_list">
 	{% for report_youth in site.reports_youth %}
 
-	<li>
+	<li class="author_node">
 		<div class="author_block author_block_youth">
-			<a href="{{site.baseurl}}{{report_youth.url}}">• {{report_youth.speaker}}</a>
+			<a href="..{{report_youth.url}}">• {{report_youth.speaker}}</a>
 			<p>{{report_youth.position}}</p>
 		</div>
 		<div class="report_title">

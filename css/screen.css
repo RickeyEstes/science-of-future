@@ -330,7 +330,7 @@ body {
   outline: 0;
 }
 /* line 207, ../sass/_rafo.scss */
-#search > button {
+#search > div {
   height: 30px;
   width: 30px;
   background-image: url("../img/2x/find.png");

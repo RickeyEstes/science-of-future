@@ -5,13 +5,10 @@ page: organization
 ---
 
 <div id="SO_holder">
-	<div class="section_title section_title_youth "><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title section_title_youth"><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG STATE UNIVERSITY</a></div>
-	<div class="section_title section_title_youth"><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title section_title_youth"><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG STATE UNIVERSITY</a></div>
-		<div class="section_title section_title_youth"><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title section_title_youth"><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG STATE UNIVERSITY</a></div>
-	<div class="section_title section_title_youth"><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title section_title_youth"><a href="{{site.baseurl}}/science-of-future-youth">ST. PETERSBURG STATE UNIVERSITY</a></div>
+    {% for so in site.organizations_youth %}
+    <div class="section_title section_title_youth"><a href="..{{so.url}}">{{so.title}}</a></div>
+    {% endfor %}
 </div>
+
+
 

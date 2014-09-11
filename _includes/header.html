@@ -4,11 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>Science Of Future</title>
     <meta name="viewport" content="width=device-width">
+    
+    <link href="img/icon.ico" rel="shortcut icon" type="imge/x-icon" />
    
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}">
+    <!--link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}"-->
+    <link rel="stylesheet" href="/css/screen.css">
+    <link rel="stylesheet" href="../css/screen.css">
 </head>
 <body class="{% if page.url == '/' %} home {% else %} {{page.url | first }} {% endif %}" id="main_page">
 	

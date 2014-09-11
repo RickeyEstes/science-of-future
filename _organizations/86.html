@@ -1,0 +1,23 @@
+---
+
+layout: no-index
+title: Laboratory of Nano-Bioengineering, National Research Nuclear University MEPhI “Moscow Engineering Physics Institute,” 115409 Moscow, Russian Federation; Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences; Laboratoire de Recherche en Nanosciences, LRN-EA4682, Universite de Reims Champagne-Ardenne, 51100 Reims, France.
+
+page: form
+---
+<div id="section_header">SCIENTIFIC ORGANISATION: {{page.title}}</div>
+<ul id="authors_list">
+	{% for Poster in site.reports %}
+    {% if Poster.organization contains page.title %}
+	<li>
+		<div class="author_block">
+			<a href="..{{Poster.url}}">• {{Poster.speaker}}</a>
+			<p>{{Poster.position}}</p>
+		</div>
+		<div class="report_title">
+			<p class="report_section">{{Poster.section}}</p>
+			<span>«{{Poster.title}}»</span>
+		</div>
+	</li>
+    {% endif %}
+	{% endfor %}

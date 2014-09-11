@@ -11,9 +11,10 @@ page: form
 
 	{% for Poster in site.reports %}
 
+    {% if Poster.section contains page.title %}
 	<li>
 		<div class="author_block">
-			<a href="{{site.baseurl}}{{Poster.url}}">• {{Poster.speaker}}</a>
+			<a href="..{{Poster.url}}">• {{Poster.speaker}}</a>
 			<p>{{Poster.position}}</p>
 		</div>
 		<div class="report_title">
@@ -22,6 +23,8 @@ page: form
 		</div>
 	</li>
 
+    {% endif %}
+     
 	{% endfor %}
 	
 </ul>

@@ -5,13 +5,8 @@ page: organization
 ---
 
 <div id="SO_holder">
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG STATE UNIVERSITY</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG STATE UNIVERSITY</a></div>
-		<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG STATE UNIVERSITY</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG NATIONAL RESEARCH UNVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS & OPTICS</a></div>
-	<div class="section_title"><a href="{{site.baseurl}}/science-of-future">ST. PETERSBURG STATE UNIVERSITY</a></div>
+    {% for so in site.organizations %}
+    <div class="section_title"><a href="..{{so.url}}">{{so.title}}</a></div>
+    {% endfor %}
 </div>
 

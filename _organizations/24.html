@@ -1,0 +1,23 @@
+---
+
+layout: no-index
+title: Department of Molecular Biology, Princeton University, Princeton, New Jersey, United States of America.
+
+page: form
+---
+<div id="section_header">SCIENTIFIC ORGANISATION: {{page.title}}</div>
+<ul id="authors_list">
+	{% for Poster in site.reports %}
+    {% if Poster.organization contains page.title %}
+	<li>
+		<div class="author_block">
+			<a href="..{{Poster.url}}">• {{Poster.speaker}}</a>
+			<p>{{Poster.position}}</p>
+		</div>
+		<div class="report_title">
+			<p class="report_section">{{Poster.section}}</p>
+			<span>«{{Poster.title}}»</span>
+		</div>
+	</li>
+    {% endif %}
+	{% endfor %}

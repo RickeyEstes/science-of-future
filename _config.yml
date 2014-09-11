@@ -18,3 +18,9 @@ collections:
   output: true
  sections:
   output: true
+ sections_youth:
+  output: true
+ organizations:
+  output: true
+ organizations_youth:
+  output: true
