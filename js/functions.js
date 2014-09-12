@@ -1,23 +1,24 @@
 $(document).ready(function() {
+
     
     setTimeout(function(){$('.animation_holder').fadeOut(500);}, 6000);
+
+
+
+    var animation = $('.animation');
+    var animation_width = animation.height() + 256;
+    animation.width(animation_width);
     
     /*//--------------MENU HOVER-------------------
+>>>>>>> origin/gh-pages
 
-    var menu_elemtn = $('#sof_page_menu').find('a');
 
-    menu_elemtn.on('mouseenter', menu_hover);
-    menu_elemtn.on('mouseleave', menu_out);
+   setTimeout(function(){$('.animation_holder').fadeOut(500);}, 6000);
 
-    function menu_hover(){
-    	var _this = $(this);
-    	_this.stop(true, true).animate({backgroundColor:'white', color: '#911B4B'}, 200);
-    } 
-    function menu_out(){
-    	var _this = $(this);
-    	_this.stop(true, true).animate({backgroundColor:'#911B4B', color: 'white'}, 200);
-    } 
 
+<<<<<<< HEAD
+});
+=======
     //--------------MENU HOVER-------------------*/
     
     function search(query) {
@@ -53,3 +54,4 @@ $(document).ready(function() {
         search(this.value.toLowerCase());
     });
 });
+

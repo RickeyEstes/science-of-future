@@ -441,15 +441,29 @@ ol{
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	background-color: white;
 }
 .animation{
-	width: 1024px;
 	margin: 0 auto;
 	height: 100%;
 	background-image: url(../img/animation.gif);
 	background-size: 100% 100%;
 }
+
+#print-version-header{
+	display: none;
+	height: 240px;
+	width: 1024px;
+	margin: 0 auto 10px auto;
+	padding: 0!important;
+}
+#print-version-header > img{
+	width: 1024px;
+}
 @media print{
+	#print-version-header{
+		display: block!important;
+	}
     #sof_page_menu, #top_bar, .print {
        	display: none;
     }
@@ -457,21 +471,6 @@ ol{
     	height: 100%;
     }
     #sof_page_holder{
-    	margin-top: 240px;
-    }
-    body{
-        background: white!important;
-    }
-    body > .sof_page {
-    	background-image: url("../img/print.jpg");
-    	background-color: white;
-    	background-size: 1024px;
-    	background-position: 50% 0;
-    }
-    body > .sof_page_youth {
-    	background-image: url("../img/print_youth.jpg")!important;
-    	background-color: white;
-    	background-size: 1024px;
-    	background-position: 50% 0;
+    	margin: 0;
     }
 }

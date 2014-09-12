@@ -613,52 +613,50 @@ ol {
   position: absolute;
   height: 100%;
   width: 100%;
+  background-color: white;
 }
 
-/* line 445, ../sass/_rafo.scss */
+/* line 446, ../sass/_rafo.scss */
 .animation {
-  width: 1024px;
   margin: 0 auto;
   height: 100%;
   background-image: url(../img/animation.gif);
   background-size: 100% 100%;
 }
 
+/* line 453, ../sass/_rafo.scss */
+#print-version-header {
+  display: none;
+  height: 240px;
+  width: 1024px;
+  margin: 0 auto 10px auto;
+  padding: 0 !important;
+}
+
+/* line 460, ../sass/_rafo.scss */
+#print-version-header > img {
+  width: 1024px;
+}
+
 @media print {
-  /* line 453, ../sass/_rafo.scss */
+  /* line 464, ../sass/_rafo.scss */
+  #print-version-header {
+    display: block !important;
+  }
+
+  /* line 467, ../sass/_rafo.scss */
   #sof_page_menu, #top_bar, .print {
     display: none;
   }
 
-  /* line 456, ../sass/_rafo.scss */
+  /* line 470, ../sass/_rafo.scss */
   #sof_page_container, #sof_page_holder, #wrapper, #report_holder, #report {
     height: 100%;
   }
 
-  /* line 459, ../sass/_rafo.scss */
+  /* line 473, ../sass/_rafo.scss */
   #sof_page_holder {
-    margin-top: 240px;
-  }
-
-  /* line 462, ../sass/_rafo.scss */
-  body {
-    background: white !important;
-  }
-
-  /* line 465, ../sass/_rafo.scss */
-  body > .sof_page {
-    background-image: url("../img/print.jpg");
-    background-color: white;
-    background-size: 1024px;
-    background-position: 50% 0;
-  }
-
-  /* line 471, ../sass/_rafo.scss */
-  body > .sof_page_youth {
-    background-image: url("../img/print_youth.jpg") !important;
-    background-color: white;
-    background-size: 1024px;
-    background-position: 50% 0;
+    margin: 0;
   }
 }
 /* line 1, ../sass/_common.scss */
